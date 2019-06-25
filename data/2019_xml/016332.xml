@@ -1,0 +1,26 @@
+<annotation>
+	<folder>2019_train</folder>
+	<filename>016332.jpg</filename>
+	<path>/home/gfx/2019_intern_project/data/2019_train/016332.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>853</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Volvo V60 2019</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>115</xmin>
+			<ymin>296</ymin>
+			<xmax>859</xmax>
+			<ymax>645</ymax>
+		</bndbox>
+	</object>
+</annotation>

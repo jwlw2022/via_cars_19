@@ -1,0 +1,26 @@
+<annotation>
+	<folder>2019_train</folder>
+	<filename>016262.jpg</filename>
+	<path>/home/gfx/Downloads/2019_train/016262.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1215</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Lexus UX 2019</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>163</xmin>
+			<ymin>306</ymin>
+			<xmax>1706</xmax>
+			<ymax>901</ymax>
+		</bndbox>
+	</object>
+</annotation>

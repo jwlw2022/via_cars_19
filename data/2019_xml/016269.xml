@@ -1,0 +1,26 @@
+<annotation>
+	<folder>2019_train</folder>
+	<filename>016269.jpeg</filename>
+	<path>/home/gfx/Downloads/2019_train/016269.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3000</width>
+		<height>2000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Mercedes-Benz A-Class 2019</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>546</xmin>
+			<ymin>639</ymin>
+			<xmax>2746</xmax>
+			<ymax>1655</ymax>
+		</bndbox>
+	</object>
+</annotation>

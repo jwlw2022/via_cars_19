@@ -1,0 +1,26 @@
+<annotation>
+	<folder>2019_train</folder>
+	<filename>016304.jpg</filename>
+	<path>/home/gfx/Downloads/2019_train/016304.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1139</width>
+		<height>643</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Subaru Forester 2019</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>84</xmin>
+			<ymin>146</ymin>
+			<xmax>1069</xmax>
+			<ymax>571</ymax>
+		</bndbox>
+	</object>
+</annotation>

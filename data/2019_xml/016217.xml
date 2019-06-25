@@ -1,0 +1,26 @@
+<annotation>
+	<folder>2019_train</folder>
+	<filename>016217.jpg</filename>
+	<path>/home/gfx/Downloads/2019_train/016217.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2785</width>
+		<height>1795</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Chevrolet Blazer 2019</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>150</xmin>
+			<ymin>59</ymin>
+			<xmax>2699</xmax>
+			<ymax>1684</ymax>
+		</bndbox>
+	</object>
+</annotation>

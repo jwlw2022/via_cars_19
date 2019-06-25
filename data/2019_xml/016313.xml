@@ -1,0 +1,38 @@
+<annotation>
+	<folder>2019_train</folder>
+	<filename>016313.jpg</filename>
+	<path>/home/gfx/Downloads/2019_train/016313.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2400</width>
+		<height>1600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Toyota RAV4 2019</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>129</xmin>
+			<ymin>369</ymin>
+			<xmax>2258</xmax>
+			<ymax>1366</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Toyota RAV4 2019</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>129</xmin>
+			<ymin>369</ymin>
+			<xmax>2260</xmax>
+			<ymax>1364</ymax>
+		</bndbox>
+	</object>
+</annotation>
