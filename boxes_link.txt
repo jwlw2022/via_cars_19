@@ -7,6 +7,17 @@ things we need to change:
 4. maybe other things we find
 
 1.
-  xml_name = image_path.replace('.jpg', '.xml')
+  xml_name = image_path.replace('.jpg', '.txt')
   xml_name = xml_name.replace("197/", '')
-  np.savetxt(xml_name, output_dict['detection_boxes'], delimiter=",")
+  bbox_list = []
+  for item in output_dict['detection_boxes'][0]:
+    bbox_list.append(item)
+  bbox_list[0] = int(round(bbox_list[0]*image.size[0]))
+  bbox_list[1] = int(round(bbox_list[1]*image.size[1]))
+  bbox_list[2] = int(round(bbox_list[2]*image.size[0]))
+  bbox_list[3] = int(round(bbox_list[3]*image.size[1]))
+  print(bbox_list)
+  f= open(xml_name,"w+")
+  for i in bbox_list:
+     f.write(str(i))
+     f.write(",")
