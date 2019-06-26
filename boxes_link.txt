@@ -7,8 +7,8 @@ things we need to change:
 4. maybe other things we find
 
 1.
-  xml_name = image_path.replace('.jpg', '.txt')
-  xml_name = xml_name.replace("197/", '')
+  xml_name = image_path.replace('.jpg', '.csv')
+  xml_name = xml_name.replace("208/", '')
   bbox_list = []
   for item in output_dict['detection_boxes'][0]:
     bbox_list.append(item)
@@ -18,6 +18,8 @@ things we need to change:
   bbox_list[3] = int(round(bbox_list[3]*image.size[1]))
   print(bbox_list)
   f= open(xml_name,"w+")
+  f.write(str(image_path))
+  f.write(",208,")
   for i in bbox_list:
      f.write(str(i))
      f.write(",")
