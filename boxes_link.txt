@@ -5,3 +5,8 @@ things we need to change:
 2. switch from version 1 coco to the one we used in the tutorial
 3. have the function only output the bounding boxes
 4. maybe other things we find
+
+1.
+  xml_name = image_path.replace('.jpg', '.xml')
+  xml_name = xml_name.replace("197/", '')
+  np.savetxt(xml_name, output_dict['detection_boxes'], delimiter=",")
