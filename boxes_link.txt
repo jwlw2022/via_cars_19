@@ -1,0 +1,7 @@
+https://github.com/tensorflow/models/blob/master/research/object_detection/object_detection_tutorial.ipynb
+
+things we need to change:
+1. change numpy array to csv
+2. switch from version 1 coco to the one we used in the tutorial
+3. have the function only output the bounding boxes
+4. maybe other things we find
