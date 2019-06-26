@@ -64,12 +64,19 @@ def load_image_into_numpy_array(image):
   return np.array(image.getdata()).reshape(
       (im_height, im_width, 3)).astype(np.uint8)
 
+#Obtain list of all files in image directory
+from os import listdir
+from os.path import isfile, join
+def file_list(mypath):
+  return [f for f in listdir(mypath) if isfile(join(mypath, f))]
+  
 # For the sake of simplicity we will use only 2 images:
 # image1.jpg
 # image2.jpg
 # If you want to test the code with your images, just add path to the images to the TEST_IMAGE_PATHS.
-PATH_TO_TEST_IMAGES_DIR = '212' #REPLACE
-TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '000000{}.jpg'.format(i)) for i in range(19, 75) ] #REPLACE
+PATH_TO_TEST_IMAGES_DIR = '217' #REPLACE
+files = file_list(PATH_TO_TEST_IMAGES_DIR)
+TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}'.format(i)) for i in files ] #REPLACE
 
 # Size, in inches, of the output images.
 IMAGE_SIZE = (12, 8)
@@ -145,3 +152,6 @@ for image_path in TEST_IMAGE_PATHS:
   #plt.figure(figsize=IMAGE_SIZE)
   #plt.imshow(image_np)
 
+xml_name = image_path.replace('.jpg', '.xml')
+xml_name = xml_name.replace("217/", '')
+np.savetxt(xml_name, output_dict['detection_boxes'], delimiter=",")
