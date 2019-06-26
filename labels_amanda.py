@@ -65,8 +65,8 @@ def load_image_into_numpy_array(image):
       (im_height, im_width, 3)).astype(np.uint8)
 
 # Modify the below paths accordingly
-PATH_TO_TEST_IMAGES_DIR = 'datasets/205' #REPLACE
-TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}.jpg'.format(i)) for i in range(1, 158) ] #REPLACE
+PATH_TO_TEST_IMAGES_DIR = 'datasets/206' #REPLACE
+TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}.jpg'.format(i)) for i in range(1, 70) ] #REPLACE
 
 # Size, in inches, of the output images.
 IMAGE_SIZE = (12, 8)
@@ -142,7 +142,7 @@ for image_path in TEST_IMAGE_PATHS:
   #plt.imshow(image_np)
 
   xml_name = image_path.replace('.jpg', '.csv')
-  xml_name = xml_name.replace("205/", "205_csv/")
+  xml_name = xml_name.replace("206/", "206_csv/")
   bbox_list = []
   for item in output_dict['detection_boxes'][0]:
     bbox_list.append(item)
@@ -152,7 +152,7 @@ for image_path in TEST_IMAGE_PATHS:
   bbox_list[3] = int(round(bbox_list[3]*image.size[1]))
   f= open(xml_name,"w+")
   f.write(str(image_path))
-  f.write(",205,")
+  f.write(",206,")
   for i in bbox_list:
      f.write(str(i))
      f.write(",")
