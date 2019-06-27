@@ -1,3 +1,4 @@
+relative_im_path,class,bbox_x1,bbox_y1,bbox_x2,bbox_y2,test
 datasets/197/102.jpg,197,1819,355,4412,2511,0
 datasets/197/103.jpg,197,633,219,1957,1114,0
 datasets/197/104.jpg,197,12,81,872,602,0
