@@ -1,7 +1,7 @@
 # via_cars_19
 Summer Computer Vision Project at VIA
 
-Helpful Links:
+Helpful links:
 
 Installation:
 
@@ -43,6 +43,8 @@ https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc
 
 https://www.youtube.com/watch?v=COlbP62-B-U&list=PLQVvvaa0QuDcNK5GeCQnxYnSSaar2tpku&index=1
 
+https://github.com/tensorflow/models/blob/master/research/object_detection/object_detection_tutorial.ipynb (get bounding boxes)
+
 Generating TFRecords:
 
 https://github.com/datitran/raccoon_dataset/blob/master/generate_tfrecord.py
@@ -70,5 +72,4 @@ https://www.linuxbabe.com/desktop-linux/switch-intel-nvidia-graphics-card-ubuntu
 LabelImg:
 
 https://www.youtube.com/watch?v=K_mFnvzyLvc&list=PLQVvvaa0QuDcNK5GeCQnxYnSSaar2tpku&index=3
-
 
