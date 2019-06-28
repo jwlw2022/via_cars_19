@@ -1,0 +1,149 @@
+item {
+  id: 1
+  name: 'Acura NSX 2019'
+}
+
+item {
+  id: 2
+  name: 'Acura RDX 2019'
+}
+
+item {
+  id: 3
+  name: 'Audi A6 2019'
+}
+
+item {
+  id: 4
+  name: 'Audi A8 2019'
+}
+
+item {
+  id: 5
+  name: 'BMW X4 2019'
+}
+
+item {
+  id: 6
+  name: 'BMW X5 2019'
+}
+
+item {
+  id: 7
+  name: 'Chevrolet Blazer 2019'
+}
+
+item {
+  id: 8
+  name: 'Chevrolet Silverado 2019'
+}
+
+item {
+  id: 9
+  name: 'Ford Fusion Hybrid Titanium 2019'
+}
+
+item {
+  id: 10
+  name: 'Ford Taurus 2019'
+}
+
+item {
+  id: 11
+  name: 'Honda Insight 2019'
+}
+
+item {
+  id: 12
+  name: 'Honda Passport 2019'
+}
+
+item {
+  id: 13
+  name: 'Hyundai Santa Fe 2019'
+}
+
+item {
+  id: 14
+  name: 'Hyundai Veloster 2019'
+}
+
+item {
+  id: 15
+  name: 'Lexus ES 2019'
+}
+
+item {
+  id: 16
+  name: 'Lexus UX 2019'
+}
+
+item {
+  id: 17
+  name: 'Mercedes-Benz A-Class 2019'
+}
+
+item {
+  id: 18
+  name: 'Mercedes-Benz G-Class 2019'
+}
+
+item {
+  id: 19
+  name: 'Nissan Altima 2019'
+}
+
+item {
+  id: 20
+  name: 'Nissan Leaf Plus 2019'
+}
+
+item {
+  id: 21
+  name: 'Porsche 911 Speedster 2019'
+}
+
+item {
+  id: 22
+  name: 'Porsche Cayenne 2019'
+}
+
+item {
+  id: 23
+  name: 'Subaru Ascent 2019'
+}
+
+item {
+  id: 24
+  name: 'Subaru Forester 2019'
+}
+
+item {
+  id: 25
+  name: 'Toyota Avalon 2019'
+}
+
+item {
+  id: 26
+  name: 'Toyota RAV4 2019'
+}
+
+item {
+  id: 27
+  name: 'Volkswagen Arteon 2019'
+}
+
+item {
+  id: 28
+  name: 'Volkswagen Jetta 2019'
+}
+
+item {
+  id: 29
+  name: 'Volvo S60 2019'
+}
+
+item {
+  id: 30
+  name: 'Volvo V60 2019'
+}

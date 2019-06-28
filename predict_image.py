@@ -38,12 +38,12 @@ from object_detection.utils import ops as utils_ops
 from object_detection.utils import visualization_utils as vis_util
 
 flags = tf.app.flags
-flags.DEFINE_string('model','stanford_cars_inference_graph/frozen_inference_graph.pb','Frozen graph file')
-flags.DEFINE_string('labels','stanford_cars_label_map.pbtxt','pbtxt labels file')
+flags.DEFINE_string('model','frozen_inf_graph.pb','Frozen graph file')
+flags.DEFINE_string('labels','2019_cars_label_map.pbtxt','pbtxt labels file')
 flags.DEFINE_string('image','','Image to run prediction on')
 FLAGS = flags.FLAGS
 
-NUM_CLASSES = 196
+NUM_CLASSES = 30
 
 
 def load_image_into_numpy_array(image):
@@ -145,7 +145,7 @@ def main(_):
 
   myim = Image.fromarray(image_np)
   myim_basename = os.path.basename(FLAGS.image)
-  myim.save(os.path.join('./', myim_basename)) 
+  myim.save(os.path.join('results1/', myim_basename)) 
 
 
 if __name__ == '__main__':
