@@ -1,9 +1,0 @@
-To get image URLs from Google Chrome, first navigate to images.google.com and 
-search your query. Then open JavaScript in the browser (right click --> 
-Inspect) and go to the Elements tab. In the header, add the following tag:
-<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 
-'self' http://* 'unsafe-inline'; script-src 'self' http://* 'unsafe-inline' 
-'unsafe-eval'">
-
-Then go to the Console tag and run the code as specified here:
-https://www.pyimagesearch.com/2017/12/04/how-to-create-a-deep-learning-dataset-using-google-images/
