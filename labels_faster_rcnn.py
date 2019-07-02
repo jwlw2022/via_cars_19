@@ -76,7 +76,8 @@ def file_list(mypath):
 # If you want to test the code with your images, just add path to the images to the TEST_IMAGE_PATHS.
 PATH_TO_TEST_IMAGES_DIR = '197' #REPLACE
 files = file_list(PATH_TO_TEST_IMAGES_DIR)
-TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}'.format(i)) for i in files ] #REPLACE
+#TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}'.format(i)) for i in files ]
+TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}'.format(i)) for i in range(1, 83) #REPLACE
 
 # Size, in inches, of the output images.
 IMAGE_SIZE = (12, 8)
@@ -151,7 +152,21 @@ for image_path in TEST_IMAGE_PATHS:
       line_thickness=8)
   plt.figure(figsize=IMAGE_SIZE)
   plt.imshow(image_np)
+  fig_path = image_path.replace("{}/".format(curr_dir), "{}_boxes/".format(curr_dir))
+  plt.savefig(fig_path)
 
-xml_name = image_path.replace('.jpg', '.xml')
-xml_name = xml_name.replace("197/", '')
-np.savetxt(xml_name, output_dict['detection_boxes'], delimiter=",")
+  xml_name = image_path.replace('.jpg', '.csv')
+  xml_name = xml_name.replace("197/", "197_csv/")
+  bbox_list = []
+  for item in output_dict['detection_boxes'][0]:
+    bbox_list.append(item)
+  bbox_list[0] = int(round(bbox_list[0]*image.size[0]))
+  bbox_list[1] = int(round(bbox_list[1]*image.size[1]))
+  bbox_list[2] = int(round(bbox_list[2]*image.size[0]))
+  bbox_list[3] = int(round(bbox_list[3]*image.size[1]))
+  f = open(xml_name,"w+")
+  f.write(str(image_path))
+  f.write(",197,")
+  for i in bbox_list:
+    f.write(str(i))
+    f.write(",")
