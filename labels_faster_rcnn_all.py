@@ -75,8 +75,8 @@ def file_list(mypath):
 # image2.jpg
 # If you want to test the code with your images, just add path to the images to the TEST_IMAGE_PATHS.
 
-for curr_dir in range(200, 227):
-  PATH_TO_TEST_IMAGES_DIR = '{}'.format(curr_dir) #REPLACE
+for curr_dir in range(197, 227):
+  PATH_TO_TEST_IMAGES_DIR = 'datasets/{}'.format(curr_dir) #REPLACE
   files = file_list(PATH_TO_TEST_IMAGES_DIR)
   TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}'.format(i)) for i in files ]   
   #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}'.format(i)) for i in range(1, 83) ]    
@@ -159,7 +159,7 @@ for curr_dir in range(200, 227):
     plt.savefig(fig_path)
 
     xml_name = image_path.replace('.jpg', '.csv')
-    xml_name = xml_name.replace("{}/".format(curr_dir), "{}_csv/".format(curr_dir))
+    xml_name = xml_name.replace("{}/".format(curr_dir), "{}_csv2/".format(curr_dir))
     bbox_list = []
     for item in output_dict['detection_boxes'][0]:
       bbox_list.append(item)
