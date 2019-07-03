@@ -75,7 +75,7 @@ def file_list(mypath):
 # image2.jpg
 # If you want to test the code with your images, just add path to the images to the TEST_IMAGE_PATHS.
 
-for curr_dir in range(197, 227):
+for curr_dir in range(209, 227):
   PATH_TO_TEST_IMAGES_DIR = 'datasets/{}'.format(curr_dir) #REPLACE
   files = file_list(PATH_TO_TEST_IMAGES_DIR)
   TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}'.format(i)) for i in files ]   
