@@ -37,8 +37,8 @@ PATH_TO_FROZEN_GRAPH = MODEL_NAME + '/frozen_inference_graph.pb'
 # List of the strings that is used to add correct label for each box.
 PATH_TO_LABELS = '2019_cars_label_map.pbtxt' #REPLACE
 
-opener = urllib.request.URLopener()
-opener.retrieve(DOWNLOAD_BASE + MODEL_FILE, MODEL_FILE)
+#opener = urllib.request.URLopener()
+#opener.retrieve(DOWNLOAD_BASE + MODEL_FILE, MODEL_FILE)
 tar_file = tarfile.open(MODEL_FILE)
 for file in tar_file.getmembers():
   file_name = os.path.basename(file.name)
@@ -74,10 +74,11 @@ def file_list(mypath):
 # image1.jpg
 # image2.jpg
 # If you want to test the code with your images, just add path to the images to the TEST_IMAGE_PATHS.
-PATH_TO_TEST_IMAGES_DIR = 'datasets/197' #REPLACE
+PATH_TO_TEST_IMAGES_DIR = 'datasets/201' #REPLACE
 files = file_list(PATH_TO_TEST_IMAGES_DIR)
 #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}'.format(i)) for i in files ]
-TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}'.format(i)) for i in range(1, 83) #REPLACE
+#TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}.jpg'.format(i)) for i in range(1, 83) ]
+TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}.jpg'.format(i)) for i in [77, 84, 87, 95, 97, 108, 110, 125, 133, 134, 141, 150, 158, 161, 169, 172, 173, 175, 180, 183, 187, 189, 205, 206, 222, 224, 227, 234, 235, 238, 241, 243, 247, 249, 253, 254, 264, 272] ] #REPLACE
 
 # Size, in inches, of the output images.
 IMAGE_SIZE = (12, 8)
@@ -141,22 +142,22 @@ for image_path in TEST_IMAGE_PATHS:
   #print(output_dict)
   
   # Visualization of the results of a detection.
-  vis_util.visualize_boxes_and_labels_on_image_array(
-      image_np,
-      output_dict['detection_boxes'],
-      output_dict['detection_classes'],
-      output_dict['detection_scores'],
-      category_index,
-      instance_masks=output_dict.get('detection_masks'),
-      use_normalized_coordinates=True,
-      line_thickness=8)
-  plt.figure(figsize=IMAGE_SIZE)
-  plt.imshow(image_np)
-  fig_path = image_path.replace("{}/".format(curr_dir), "{}_boxes/".format(curr_dir))
-  plt.savefig(fig_path)
+  #vis_util.visualize_boxes_and_labels_on_image_array(
+  #    image_np,
+  #    output_dict['detection_boxes'],
+  #    output_dict['detection_classes'],
+  #    output_dict['detection_scores'],
+  #    category_index,
+  #    instance_masks=output_dict.get('detection_masks'),
+  #    use_normalized_coordinates=True,
+  #    line_thickness=8)
+  #plt.figure(figsize=IMAGE_SIZE)
+  #plt.imshow(image_np)
+  #fig_path = image_path.replace("201/", "201_boxes/")
+  #plt.savefig(fig_path)
 
   xml_name = image_path.replace('.jpg', '.csv')
-  xml_name = xml_name.replace("197/", "197_csv2/")
+  xml_name = xml_name.replace("201/", "201_csv2/")
   bbox_list = []
   for item in output_dict['detection_boxes'][0]:
     bbox_list.append(item)
@@ -166,7 +167,7 @@ for image_path in TEST_IMAGE_PATHS:
   bbox_list[3] = int(round(bbox_list[3]*image.size[1]))
   f = open(xml_name,"w+")
   f.write(str(image_path))
-  f.write(",197,")
+  f.write(",5,")
   for i in bbox_list:
     f.write(str(i))
     f.write(",")
