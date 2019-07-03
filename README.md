@@ -5,6 +5,8 @@ Helpful links:
 
 Installation:
 
+https://medium.com/better-programming/install-tensorflow-1-13-on-ubuntu-18-04-with-gpu-support-239b36d29070
+
 https://medium.com/@maniac.tw/ubuntu-18-04-%E5%AE%89%E8%A3%9D-nvidia-driver-418-cuda-10-tensorflow-1-13-a4f1c71dd8e5
 
 https://medium.com/@cjanze/how-to-install-tensorflow-with-gpu-support-on-ubuntu-18-04-lts-with-cuda-10-nvidia-gpu-312a693744b5
@@ -19,17 +21,13 @@ Major Github Repos:
 
 https://github.com/via-intelligent-vision/2019_intern_project (fork it)
 
+https://github.com/jwlw2022/via_cars_19.git (do all your work here--pull and push every hour)
+
 https://github.com/tensorflow/models/tree/master/research/object_detection
 
 https://github.com/tzutalin/labelImg
 
 https://github.com/opencv/opencv
-
-https://github.com/cocodataset/cocoapi
-
-https://github.com/keras-team/keras/tree/master/keras
-
-https://github.com/fastai/fastai
 
 Tutorials:
 
@@ -53,6 +51,8 @@ https://github.com/tensorflow/tensorflow/blob/v1.10.1/tensorflow/python/lib/io/t
 
 NN from Scratch:
 
+https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html#
+
 https://towardsdatascience.com/how-to-build-your-own-neural-network-from-scratch-in-python-68998a08e4f6
 
 https://towardsdatascience.com/how-to-build-a-simple-neural-network-from-scratch-with-python-9f011896d2f3
@@ -72,4 +72,14 @@ https://www.linuxbabe.com/desktop-linux/switch-intel-nvidia-graphics-card-ubuntu
 LabelImg:
 
 https://www.youtube.com/watch?v=K_mFnvzyLvc&list=PLQVvvaa0QuDcNK5GeCQnxYnSSaar2tpku&index=3
+
+Training:
+
+https://towardsdatascience.com/how-to-rapidly-test-dozens-of-deep-learning-models-in-python-cb839b518531
+
+Git:
+https://sethrobertson.github.io/GitFixUm/fixup.html#discard_all_unpushed
+https://git-lfs.github.com/
+
+
 
