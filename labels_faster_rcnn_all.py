@@ -144,19 +144,19 @@ for curr_dir in range(198, 227):
     #print(output_dict)
   
     # Visualization of the results of a detection.
-    vis_util.visualize_boxes_and_labels_on_image_array(
-        image_np,
-        output_dict['detection_boxes'],
-        output_dict['detection_classes'],
-        output_dict['detection_scores'],
-        category_index,
-        instance_masks=output_dict.get('detection_masks'),
-        use_normalized_coordinates=True,
-        line_thickness=8)
-    plt.figure(figsize=IMAGE_SIZE)
-    plt.imshow(image_np)
-    fig_path = image_path.replace("{}/".format(curr_dir), "{}_boxes/".format(curr_dir))
-    plt.savefig(fig_path)
+    #vis_util.visualize_boxes_and_labels_on_image_array(
+    #    image_np,
+    #    output_dict['detection_boxes'],
+    #    output_dict['detection_classes'],
+    #    output_dict['detection_scores'],
+    #    category_index,
+    #    instance_masks=output_dict.get('detection_masks'),
+    #    use_normalized_coordinates=True,
+    #    line_thickness=8)
+    #plt.figure(figsize=IMAGE_SIZE)
+    #plt.imshow(image_np)
+    #fig_path = image_path.replace("{}/".format(curr_dir), "{}_boxes/".format(curr_dir))
+    #plt.savefig(fig_path)
 
     xml_name = image_path.replace('.jpg', '.csv')
     xml_name = xml_name.replace("{}/".format(curr_dir), "{}_csv2/".format(curr_dir))
