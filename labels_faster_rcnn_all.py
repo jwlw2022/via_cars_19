@@ -75,7 +75,7 @@ def file_list(mypath):
 # image2.jpg
 # If you want to test the code with your images, just add path to the images to the TEST_IMAGE_PATHS.
 
-for curr_dir in range(202, 227):
+for curr_dir in range(204, 206):
   PATH_TO_TEST_IMAGES_DIR = 'datasets/{}'.format(curr_dir) #REPLACE
   files = file_list(PATH_TO_TEST_IMAGES_DIR)
   TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}'.format(i)) for i in files ]   
@@ -132,7 +132,7 @@ for curr_dir in range(202, 227):
     return output_dict
 
   for image_path in TEST_IMAGE_PATHS:
-    print('working')
+    print(image_path)
     image = Image.open(image_path)
     # the array based representation of the image will be used later in order to prepare the
     # result image with boxes and labels on it.
