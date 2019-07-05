@@ -37,8 +37,8 @@ PATH_TO_FROZEN_GRAPH = MODEL_NAME + '/frozen_inference_graph.pb'
 # List of the strings that is used to add correct label for each box.
 PATH_TO_LABELS = '2019_cars_label_map.pbtxt' #REPLACE
 
-#opener = urllib.request.URLopener()
-#opener.retrieve(DOWNLOAD_BASE + MODEL_FILE, MODEL_FILE)
+opener = urllib.request.URLopener()
+opener.retrieve(DOWNLOAD_BASE + MODEL_FILE, MODEL_FILE)
 tar_file = tarfile.open(MODEL_FILE)
 for file in tar_file.getmembers():
   file_name = os.path.basename(file.name)
@@ -75,7 +75,7 @@ def file_list(mypath):
 # image2.jpg
 # If you want to test the code with your images, just add path to the images to the TEST_IMAGE_PATHS.
 
-for curr_dir in range(216, 217):
+for curr_dir in range(215, 216):
   PATH_TO_TEST_IMAGES_DIR = 'datasets/{}'.format(curr_dir) #REPLACE
   files = file_list(PATH_TO_TEST_IMAGES_DIR)
   TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}'.format(i)) for i in files ]   
