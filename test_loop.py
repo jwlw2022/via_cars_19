@@ -137,6 +137,10 @@ def main(_):
     output_dict = run_inference_for_single_image(image_np, detection_graph)
 
     print(output_dict['detection_scores'][0], output_dict['detection_classes'][0])
+    class_pred = str(output_dict['detection_classes'][0])
+    if len(class_pred) == 1:
+      class_pred = '0' + class_pred
+
     guess = category_index[output_dict['detection_classes'][0]]['name']
 
     print(guess)
@@ -146,7 +150,10 @@ def main(_):
     
     with open('test_faster_rcnn_resnet101.csv', mode='a') as results:
       results_writer = csv.writer(results, delimiter=',', quoting=csv.QUOTE_MINIMAL)
-      results_writer.writerow([i[14:-4], guess])
+      if i[14:16] == class_pred: 
+        results_writer.writerow([i[14:-4], guess, 1])
+      else:
+        results_writer.writerow([i[14:-4], guess, 0])
 
     #with open('test_model4.csv', 'rb') as f:
     #    data = list(csv.reader(f))
