@@ -1,0 +1,1106 @@
+Answer,Prediction,Correctness,Confidence
+27volkswagenArteon15,Acura NSX 2019,0,0
+18mercedesBenzG33,Mercedes-Benz G-Class 2019,1,0.5859533
+14hyundaiVeloster38,Hyundai Veloster 2019,1,0.6319923
+26toyotaRAV4-7,Toyota RAV4 2019,1,0.4723242
+11hondaInsight27,Nissan Altima 2019,0,0.39075848
+12hondaPassport11,Honda Passport 2019,1,0.4433042
+23subaruAscent25,Subaru Ascent 2019,1,0.5775414
+08chevySilverado32,Chevrolet Silverado 2019,1,0.80893517
+10fordTaurus32,Ford Fusion Hybrid Titanium 2019,0,0.3007829
+13hyundaiSantaFe21,Acura NSX 2019,0,0
+19nissanAltima13,Nissan Altima 2019,1,0.6758929
+21porsche911Speedster38,Porsche 911 Speedster 2019,1,0.78222847
+20nissanLeafPlus11,Nissan Leaf Plus 2019,1,0.47901326
+14hyundaiVeloster21,Subaru Ascent 2019,0,0.3607921
+14hyundaiVeloster26,Hyundai Veloster 2019,1,0.6631555
+06bmwX5-17,BMW X5 2019,1,0.6723805
+17mercedesBenzA7,Audi A8 2019,0,0.3643661
+21porsche911Speedster23,Audi A6 2019,0,0.38649523
+02acuraRDX21,Ford Fusion Hybrid Titanium 2019,0,0.4286189
+02acuraRDX3,Acura RDX 2019,1,0.7214359
+06bmwX5-6,BMW X5 2019,1,0.44825608
+30volvoV60-32,BMW X4 2019,0,0.46214545
+22porscheCayenne18,Porsche Cayenne 2019,1,0.7822939
+12hondaPassport43,Honda Passport 2019,1,0.57071465
+27volkswagenArteon11,Volkswagen Arteon 2019,1,0.48583218
+13hyundaiSantaFe31,Acura NSX 2019,0,0
+02acuraRDX10,BMW X4 2019,0,0.360739
+30volvoV60-2,Volvo S60 2019,0,0.5122382
+19nissanAltima29,Honda Insight 2019,0,0.35329348
+24subaruForester7,Subaru Forester 2019,1,0.4368245
+16lexusUX28,Lexus UX 2019,1,0.7365902
+04audiA8-31,Audi A8 2019,1,0.3949742
+19nissanAltima18,Nissan Altima 2019,1,0.5632398
+06bmwX5-19,BMW X5 2019,1,0.5961613
+22porscheCayenne1,Porsche Cayenne 2019,1,0.5505573
+16lexusUX12,Lexus UX 2019,1,0.67047715
+13hyundaiSantaFe13,Hyundai Santa Fe 2019,1,0.43835008
+06bmwX5-22,BMW X5 2019,1,0.37296176
+20nissanLeafPlus28,Nissan Leaf Plus 2019,1,0.4720694
+16lexusUX22,Lexus UX 2019,1,0.6977943
+17mercedesBenzA24,Mercedes-Benz A-Class 2019,1,0.5190485
+28volkswagenJetta37,Ford Taurus 2019,0,0.44981933
+04audiA8-4,Audi A8 2019,1,0.57958573
+17mercedesBenzA1,Mercedes-Benz A-Class 2019,1,0.4565967
+01acuraNSX30,Acura NSX 2019,1,0.5063019
+12hondaPassport31,Honda Passport 2019,1,0.5539124
+14hyundaiVeloster20,Lexus UX 2019,0,0.4046182
+18mercedesBenzG37,Mercedes-Benz G-Class 2019,1,0.708053
+18mercedesBenzG36,Mercedes-Benz G-Class 2019,1,0.5218974
+15lexusES18,Acura NSX 2019,0,0
+10fordTaurus38,Ford Fusion Hybrid Titanium 2019,0,0.32793748
+26toyotaRAV4-19,Toyota RAV4 2019,1,0.56805736
+30volvoV60-28,Volvo S60 2019,0,0.39444298
+28volkswagenJetta5,Acura NSX 2019,0,0
+05bmwX4-4,Hyundai Santa Fe 2019,0,0.38559413
+07chevyBlazer22,Chevrolet Blazer 2019,1,0.5463815
+01acuraNSX26,Acura NSX 2019,1,0.66769826
+20nissanLeafPlus15,Nissan Altima 2019,0,0.5235484
+10fordTaurus13,Ford Fusion Hybrid Titanium 2019,0,0.4324141
+17mercedesBenzA3,Audi A6 2019,0,0.48644885
+19nissanAltima20,Nissan Altima 2019,1,0.5534765
+24subaruForester34,Acura NSX 2019,0,0
+01acuraNSX24,Acura NSX 2019,1,0.7352407
+02acuraRDX8,Nissan Leaf Plus 2019,0,0.4195431
+02acuraRDX25,Acura RDX 2019,1,0.6936083
+10fordTaurus7,Ford Taurus 2019,1,0.5781766
+13hyundaiSantaFe28,Acura NSX 2019,0,0
+07chevyBlazer32,Chevrolet Blazer 2019,1,0.7154499
+15lexusES11,Lexus ES 2019,1,0.50716555
+25toyotaAvalon37,Toyota Avalon 2019,1,0.4601316
+26toyotaRAV4-1,Toyota RAV4 2019,1,0.51576734
+18mercedesBenzG28,Mercedes-Benz G-Class 2019,1,0.55342245
+14hyundaiVeloster14,Hyundai Veloster 2019,1,0.4750213
+13hyundaiSantaFe4,Hyundai Santa Fe 2019,1,0.6524195
+05bmwX4-34,Volvo V60 2019,0,0.35077178
+17mercedesBenzA19,Volvo S60 2019,0,0.46388254
+23subaruAscent34,Honda Insight 2019,0,0.30543068
+06bmwX5-32,BMW X5 2019,1,0.5564095
+24subaruForester2,Subaru Forester 2019,1,0.5021049
+05bmwX4-37,BMW X4 2019,1,0.41542733
+24subaruForester12,Subaru Forester 2019,1,0.49023753
+03audiA6-11,Volvo V60 2019,0,0.53664726
+09fordFusionHybridTitanium5,Ford Fusion Hybrid Titanium 2019,1,0.4978925
+19nissanAltima5,Nissan Altima 2019,1,0.7474038
+09fordFusionHybridTitanium42,Ford Fusion Hybrid Titanium 2019,1,0.33779287
+28volkswagenJetta2,Ford Taurus 2019,0,0.37783968
+07chevyBlazer25,Chevrolet Blazer 2019,1,0.81479675
+25toyotaAvalon22,Toyota Avalon 2019,1,0.5570418
+01acuraNSX15,Acura NSX 2019,1,0.362916
+26toyotaRAV4-10,Acura NSX 2019,0,0
+21porsche911Speedster17,Lexus ES 2019,0,0.3819046
+16lexusUX36,Lexus UX 2019,1,0.71191025
+28volkswagenJetta1,Chevrolet Silverado 2019,0,0.3713951
+12hondaPassport2,Honda Passport 2019,1,0.6997717
+20nissanLeafPlus31,Nissan Leaf Plus 2019,1,0.36777854
+16lexusUX16,Lexus UX 2019,1,0.72557974
+11hondaInsight16,Honda Insight 2019,1,0.5851815
+18mercedesBenzG34,Mercedes-Benz G-Class 2019,1,0.6618872
+30volvoV60-10,Volvo V60 2019,1,0.41003042
+08chevySilverado5,Chevrolet Silverado 2019,1,0.5484924
+30volvoV60-23,Acura NSX 2019,0,0
+23subaruAscent13,Subaru Forester 2019,0,0.3714587
+05bmwX4-25,BMW X5 2019,0,0.4913626
+04audiA8-3,Audi A8 2019,1,0.6820745
+24subaruForester29,Subaru Ascent 2019,0,0.5240788
+27volkswagenArteon1,Audi A8 2019,0,0.3978331
+25toyotaAvalon18,Toyota Avalon 2019,1,0.43803465
+05bmwX4-2,BMW X5 2019,0,0.32128912
+24subaruForester22,Acura NSX 2019,0,0
+19nissanAltima14,Nissan Altima 2019,1,0.5091385
+03audiA6-25,Audi A6 2019,1,0.6500337
+17mercedesBenzA12,Subaru Forester 2019,0,0.3520512
+23subaruAscent21,Subaru Ascent 2019,1,0.38957852
+18mercedesBenzG29,Audi A8 2019,0,0.41179124
+14hyundaiVeloster28,Hyundai Veloster 2019,1,0.5510014
+20nissanLeafPlus34,Nissan Leaf Plus 2019,1,0.8039397
+10fordTaurus9,Ford Taurus 2019,1,0.43253103
+21porsche911Speedster26,Porsche Cayenne 2019,0,0.3184772
+27volkswagenArteon18,Honda Insight 2019,0,0.51011163
+01acuraNSX5,Acura NSX 2019,1,0.6738971
+25toyotaAvalon29,Toyota Avalon 2019,1,0.5780437
+01acuraNSX11,Acura NSX 2019,1,0
+06bmwX5-37,BMW X4 2019,0,0.30990964
+18mercedesBenzG18,Mercedes-Benz G-Class 2019,1,0.43495426
+22porscheCayenne5,Porsche Cayenne 2019,1,0.80536187
+25toyotaAvalon31,Toyota Avalon 2019,1,0.5582625
+11hondaInsight19,Audi A6 2019,0,0.35115466
+05bmwX4-9,BMW X4 2019,1,0.58982974
+23subaruAscent18,Volvo V60 2019,0,0.31616768
+27volkswagenArteon20,Volkswagen Arteon 2019,1,0.57702
+23subaruAscent8,Volvo V60 2019,0,0.47109705
+16lexusUX13,Lexus UX 2019,1,0.64839137
+29volvoS60-2,Acura NSX 2019,0,0
+30volvoV60-30,Mercedes-Benz A-Class 2019,0,0.36470166
+08chevySilverado10,Chevrolet Silverado 2019,1,0.75166166
+05bmwX4-7,BMW X5 2019,0,0.4632038
+23subaruAscent9,Subaru Ascent 2019,1,0.30765185
+01acuraNSX9,Porsche 911 Speedster 2019,0,0.37985972
+17mercedesBenzA14,Acura NSX 2019,0,0
+21porsche911Speedster6,Porsche 911 Speedster 2019,1,0.6230145
+11hondaInsight10,Honda Insight 2019,1,0.49880278
+10fordTaurus37,Acura NSX 2019,0,0
+30volvoV60-34,Volvo S60 2019,0,0.3094448
+30volvoV60-8,Volvo S60 2019,0,0.5656426
+15lexusES31,Lexus ES 2019,1,0.6526626
+03audiA6-33,Audi A6 2019,1,0.6386911
+14hyundaiVeloster17,Hyundai Veloster 2019,1,0.5305685
+03audiA6-24,Audi A6 2019,1,0.48770317
+22porscheCayenne9,Acura NSX 2019,0,0
+07chevyBlazer9,Hyundai Santa Fe 2019,0,0.41936782
+09fordFusionHybridTitanium24,Ford Fusion Hybrid Titanium 2019,1,0.5040965
+29volvoS60-9,Volvo V60 2019,0,0.38494128
+21porsche911Speedster5,Lexus UX 2019,0,0.30007127
+05bmwX4-30,BMW X4 2019,1,0.41871977
+13hyundaiSantaFe27,Hyundai Santa Fe 2019,1,0.5696032
+21porsche911Speedster24,Porsche 911 Speedster 2019,1,0.67055875
+23subaruAscent4,Subaru Ascent 2019,1,0.4576514
+14hyundaiVeloster27,Hyundai Veloster 2019,1,0.6335247
+30volvoV60-20,Volvo V60 2019,1,0.48265225
+23subaruAscent14,Honda Passport 2019,0,0.440719
+26toyotaRAV4-35,Toyota RAV4 2019,1,0.6858664
+18mercedesBenzG11,Mercedes-Benz G-Class 2019,1,0.8196417
+28volkswagenJetta26,Ford Taurus 2019,0,0.3445685
+01acuraNSX23,Acura NSX 2019,1,0.57743835
+16lexusUX15,Lexus UX 2019,1,0.7912003
+17mercedesBenzA20,Volvo V60 2019,0,0.34853357
+28volkswagenJetta15,Volkswagen Jetta 2019,1,0.6854212
+12hondaPassport30,Honda Passport 2019,1,0.5079772
+11hondaInsight2,Honda Insight 2019,1,0.54914457
+28volkswagenJetta14,Volvo V60 2019,0,0.33877027
+29volvoS60-11,Volvo S60 2019,1,0.3804204
+14hyundaiVeloster30,Hyundai Veloster 2019,1,0.6780603
+11hondaInsight18,Honda Insight 2019,1,0.6083522
+30volvoV60-29,Volvo V60 2019,1,0.4563143
+08chevySilverado23,Chevrolet Silverado 2019,1,0.82934785
+27volkswagenArteon13,Audi A6 2019,0,0.3353483
+22porscheCayenne22,Porsche Cayenne 2019,1,0.53624165
+16lexusUX8,Lexus UX 2019,1,0.74763286
+28volkswagenJetta16,Volkswagen Jetta 2019,1,0.4038424
+23subaruAscent32,Subaru Ascent 2019,1,0.50050414
+15lexusES9,Lexus ES 2019,1,0.5356501
+30volvoV60-13,Volvo V60 2019,1,0.5279554
+11hondaInsight12,Mercedes-Benz A-Class 2019,0,0.31218916
+22porscheCayenne23,Porsche Cayenne 2019,1,0.74143386
+16lexusUX34,Lexus UX 2019,1,0.57439125
+06bmwX5-7,BMW X5 2019,1,0.45687747
+17mercedesBenzA22,Audi A8 2019,0,0.3568355
+21porsche911Speedster25,Porsche 911 Speedster 2019,1,0.66959494
+22porscheCayenne2,Porsche Cayenne 2019,1,0.4733232
+24subaruForester38,Subaru Forester 2019,1,0.41062102
+05bmwX4-38,BMW X4 2019,1,0.45981723
+26toyotaRAV4-39,Mercedes-Benz G-Class 2019,0,0.33128235
+12hondaPassport3,Honda Passport 2019,1,0.5670099
+02acuraRDX2,Acura RDX 2019,1,0.52399176
+07chevyBlazer34,Acura NSX 2019,0,0
+09fordFusionHybridTitanium31,Ford Fusion Hybrid Titanium 2019,1,0.7452144
+27volkswagenArteon9,Volkswagen Arteon 2019,1,0.59800214
+28volkswagenJetta28,Ford Taurus 2019,0,0.36407173
+17mercedesBenzA25,Acura NSX 2019,0,0
+18mercedesBenzG26,Mercedes-Benz G-Class 2019,1,0.4831272
+11hondaInsight7,Nissan Leaf Plus 2019,0,0.3043276
+30volvoV60-15,Volvo V60 2019,1,0.42754388
+12hondaPassport20,Honda Passport 2019,1,0.6758745
+07chevyBlazer33,Chevrolet Blazer 2019,1,0.52812856
+05bmwX4-23,BMW X4 2019,1,0.41542733
+25toyotaAvalon23,Toyota Avalon 2019,1,0.49666947
+28volkswagenJetta11,Audi A8 2019,0,0.31999332
+08chevySilverado19,Chevrolet Silverado 2019,1,0.7462232
+12hondaPassport38,Honda Passport 2019,1,0.52189416
+11hondaInsight25,Honda Insight 2019,1,0.51551795
+15lexusES36,Lexus ES 2019,1,0.45027453
+26toyotaRAV4-8,Toyota RAV4 2019,1,0.4730423
+11hondaInsight31,Mercedes-Benz A-Class 2019,0,0.38732365
+26toyotaRAV4-14,Toyota RAV4 2019,1,0.40852457
+01acuraNSX20,Acura NSX 2019,1,0.7085023
+06bmwX5-14,BMW X5 2019,1,0.5530847
+26toyotaRAV4-27,Toyota RAV4 2019,1,0.63903946
+10fordTaurus40,Honda Insight 2019,0,0.38459164
+16lexusUX35,Lexus UX 2019,1,0.68077767
+08chevySilverado6,Chevrolet Silverado 2019,1,0.83798194
+25toyotaAvalon11,Toyota Avalon 2019,1,0.46460137
+19nissanAltima15,Nissan Altima 2019,1,0.79254586
+21porsche911Speedster19,Porsche 911 Speedster 2019,1,0.4696136
+24subaruForester11,Subaru Forester 2019,1,0.41135287
+06bmwX5-9,BMW X5 2019,1,0.6073859
+07chevyBlazer13,Chevrolet Blazer 2019,1,0.45080867
+27volkswagenArteon14,Volkswagen Arteon 2019,1,0.5701475
+27volkswagenArteon27,Volkswagen Arteon 2019,1,0.64091384
+14hyundaiVeloster32,Hyundai Veloster 2019,1,0.60410315
+03audiA6-12,Volvo V60 2019,0,0.3744853
+12hondaPassport15,Honda Passport 2019,1,0.64154696
+13hyundaiSantaFe36,Hyundai Santa Fe 2019,1,0.5185207
+13hyundaiSantaFe33,Hyundai Santa Fe 2019,1,0.69241023
+19nissanAltima9,Nissan Altima 2019,1,0.36800227
+17mercedesBenzA15,Mercedes-Benz A-Class 2019,1,0.47462118
+18mercedesBenzG38,Mercedes-Benz G-Class 2019,1,0.7736881
+18mercedesBenzG25,Mercedes-Benz G-Class 2019,1,0.365497
+25toyotaAvalon4,Toyota Avalon 2019,1,0.52328926
+16lexusUX3,Lexus UX 2019,1,0.7089715
+06bmwX5-8,BMW X5 2019,1,0.6071515
+25toyotaAvalon7,Lexus ES 2019,0,0.4751062
+16lexusUX25,Lexus UX 2019,1,0.6786239
+21porsche911Speedster20,Porsche 911 Speedster 2019,1,0.796346
+04audiA8-1,Audi A8 2019,1,0.3781801
+21porsche911Speedster28,Acura NSX 2019,0,0.34339908
+19nissanAltima21,Nissan Altima 2019,1,0.55288064
+24subaruForester3,Subaru Forester 2019,1,0.4640656
+04audiA8-27,Mercedes-Benz A-Class 2019,0,0.4266723
+21porsche911Speedster10,Porsche 911 Speedster 2019,1,0.76807773
+10fordTaurus34,Ford Taurus 2019,1,0.7381138
+25toyotaAvalon3,Toyota Avalon 2019,1,0.3633936
+23subaruAscent40,Subaru Forester 2019,0,0.43350035
+03audiA6-16,Audi A6 2019,1,0.51702625
+16lexusUX33,Lexus UX 2019,1,0.61812836
+18mercedesBenzG3,Mercedes-Benz G-Class 2019,1,0.49155125
+03audiA6-29,Audi A6 2019,1,0.54369694
+06bmwX5-13,BMW X5 2019,1,0.5321165
+14hyundaiVeloster15,Hyundai Veloster 2019,1,0.5681198
+22porscheCayenne28,Porsche Cayenne 2019,1,0.5075997
+12hondaPassport9,Subaru Forester 2019,0,0.39070457
+27volkswagenArteon17,Volkswagen Arteon 2019,1,0.51048255
+26toyotaRAV4-21,Toyota RAV4 2019,1,0.5986896
+27volkswagenArteon25,Volkswagen Arteon 2019,1,0.41765672
+11hondaInsight26,Honda Insight 2019,1,0.47176912
+07chevyBlazer8,Porsche Cayenne 2019,0,0.32364124
+24subaruForester33,Subaru Forester 2019,1,0.5297242
+06bmwX5-30,BMW X5 2019,1,0.5997425
+13hyundaiSantaFe18,Volkswagen Arteon 2019,0,0.36299068
+26toyotaRAV4-29,Subaru Forester 2019,0,0.32413387
+17mercedesBenzA5,Acura NSX 2019,0,0
+29volvoS60-4,Volvo S60 2019,1,0.47824588
+04audiA8-7,Volkswagen Arteon 2019,0,0.35108346
+14hyundaiVeloster34,Acura NSX 2019,0,0.3380742
+21porsche911Speedster30,Porsche 911 Speedster 2019,1,0.4242797
+22porscheCayenne4,Porsche Cayenne 2019,1,0.69120663
+17mercedesBenzA11,Mercedes-Benz A-Class 2019,1,0.51144683
+20nissanLeafPlus16,Porsche Cayenne 2019,0,0.31962603
+16lexusUX17,Lexus UX 2019,1,0.3306141
+20nissanLeafPlus21,Nissan Leaf Plus 2019,1,0.6056651
+25toyotaAvalon30,Lexus ES 2019,0,0.5398857
+07chevyBlazer12,Acura NSX 2019,0,0
+14hyundaiVeloster18,Hyundai Veloster 2019,1,0.5907346
+10fordTaurus26,Acura NSX 2019,0,0
+26toyotaRAV4-23,Hyundai Santa Fe 2019,0,0.39529854
+14hyundaiVeloster31,Hyundai Veloster 2019,1,0.67075974
+02acuraRDX33,Acura NSX 2019,0,0
+09fordFusionHybridTitanium10,Ford Fusion Hybrid Titanium 2019,1,0.6692021
+15lexusES25,Lexus ES 2019,1,0.49285603
+28volkswagenJetta4,Mercedes-Benz A-Class 2019,0,0.30998632
+25toyotaAvalon38,Lexus ES 2019,0,0.6060313
+15lexusES40,Lexus ES 2019,1,0.65540516
+21porsche911Speedster27,Acura NSX 2019,0,0
+02acuraRDX14,Acura RDX 2019,1,0.59742725
+21porsche911Speedster13,Porsche 911 Speedster 2019,1,0.7842014
+23subaruAscent19,Subaru Ascent 2019,1,0.39269328
+04audiA8-6,Volvo V60 2019,0,0.39071864
+07chevyBlazer3,Chevrolet Blazer 2019,1,0.6915962
+27volkswagenArteon21,Volkswagen Arteon 2019,1,0.57127637
+16lexusUX10,Lexus UX 2019,1,0.72968686
+30volvoV60-33,Volvo V60 2019,1,0.3915928
+11hondaInsight15,Honda Insight 2019,1,0.5282278
+28volkswagenJetta6,Acura NSX 2019,0,0
+20nissanLeafPlus8,Nissan Leaf Plus 2019,1,0.7518416
+15lexusES41,Volvo V60 2019,0,0.4922986
+11hondaInsight11,Honda Insight 2019,1,0.6145273
+15lexusES20,Lexus ES 2019,1,0.5464186
+16lexusUX1,Lexus UX 2019,1,0.74404687
+09fordFusionHybridTitanium38,Nissan Leaf Plus 2019,0,0.35398582
+19nissanAltima2,Audi A6 2019,0,0.44513908
+24subaruForester28,Subaru Forester 2019,1,0.5544734
+14hyundaiVeloster7,Hyundai Veloster 2019,1,0.6408951
+08chevySilverado38,Chevrolet Silverado 2019,1,0.74887276
+22porscheCayenne10,Porsche Cayenne 2019,1,0.48557824
+19nissanAltima19,Honda Insight 2019,0,0.35329348
+03audiA6-5,Audi A6 2019,1,0.43541056
+22porscheCayenne25,Porsche Cayenne 2019,1,0.4311602
+09fordFusionHybridTitanium13,Ford Fusion Hybrid Titanium 2019,1,0.3615051
+26toyotaRAV4-28,Toyota RAV4 2019,1,0.6991201
+04audiA8-8,Audi A8 2019,1,0.42494407
+21porsche911Speedster15,Acura NSX 2019,0,0
+09fordFusionHybridTitanium40,Ford Fusion Hybrid Titanium 2019,1,0.6070027
+07chevyBlazer18,Chevrolet Blazer 2019,1,0.46526316
+19nissanAltima7,Toyota Avalon 2019,0,0.32346082
+13hyundaiSantaFe30,Acura NSX 2019,0,0
+15lexusES21,Lexus ES 2019,1,0.7203747
+28volkswagenJetta33,Ford Taurus 2019,0,0.47976157
+26toyotaRAV4-12,Toyota RAV4 2019,1,0.3569303
+25toyotaAvalon10,Lexus ES 2019,0,0.43656728
+23subaruAscent24,Subaru Ascent 2019,1,0.38933367
+20nissanLeafPlus23,Nissan Leaf Plus 2019,1,0.8427781
+01acuraNSX25,Acura NSX 2019,1,0.4044822
+03audiA6-37,Audi A6 2019,1,0.48709786
+19nissanAltima27,Nissan Altima 2019,1,0.6756373
+13hyundaiSantaFe5,Hyundai Santa Fe 2019,1,0.4891478
+11hondaInsight28,Honda Insight 2019,1,0.75794804
+02acuraRDX30,Hyundai Santa Fe 2019,0,0.32639712
+12hondaPassport22,Honda Passport 2019,1,0.6204467
+03audiA6-19,Audi A6 2019,1,0.3094048
+23subaruAscent15,Subaru Forester 2019,0,0.51058537
+26toyotaRAV4-2,Toyota RAV4 2019,1,0.6529377
+11hondaInsight29,Volkswagen Jetta 2019,0,0.3328687
+09fordFusionHybridTitanium27,Ford Fusion Hybrid Titanium 2019,1,0.34549487
+06bmwX5-12,BMW X4 2019,0,0.39748955
+08chevySilverado15,Chevrolet Silverado 2019,1,0.8036523
+20nissanLeafPlus2,Nissan Leaf Plus 2019,1,0.50574124
+08chevySilverado9,Acura NSX 2019,0,0
+26toyotaRAV4-6,Hyundai Santa Fe 2019,0,0.42347667
+09fordFusionHybridTitanium34,Ford Fusion Hybrid Titanium 2019,1,0.83228904
+10fordTaurus14,Ford Taurus 2019,1,0.6321693
+18mercedesBenzG22,Mercedes-Benz G-Class 2019,1,0.7079805
+05bmwX4-1,BMW X4 2019,1,0.40482917
+21porsche911Speedster2,Porsche 911 Speedster 2019,1,0.4797975
+23subaruAscent35,Subaru Ascent 2019,1,0.37374747
+12hondaPassport7,Honda Passport 2019,1,0.31587946
+03audiA6-7,Audi A6 2019,1,0.39636785
+23subaruAscent28,Subaru Ascent 2019,1,0.3444565
+16lexusUX4,Lexus UX 2019,1,0.7465873
+25toyotaAvalon1,Lexus ES 2019,0,0.44118932
+30volvoV60-18,Porsche Cayenne 2019,0,0.3046879
+06bmwX5-31,BMW X5 2019,1,0.59148616
+26toyotaRAV4-38,Toyota RAV4 2019,1,0.70961523
+19nissanAltima16,Nissan Altima 2019,1,0.592938
+22porscheCayenne32,Porsche Cayenne 2019,1,0.37334096
+27volkswagenArteon24,Volkswagen Arteon 2019,1,0.53803664
+03audiA6-38,Audi A6 2019,1,0.57325
+25toyotaAvalon20,Toyota Avalon 2019,1,0.5450774
+04audiA8-12,Audi A8 2019,1,0.3001643
+25toyotaAvalon28,Lexus ES 2019,0,0.49834275
+24subaruForester24,Subaru Forester 2019,1,0.43948045
+12hondaPassport17,Acura NSX 2019,0,0
+20nissanLeafPlus26,Nissan Leaf Plus 2019,1,0.717704
+13hyundaiSantaFe25,Hyundai Santa Fe 2019,1,0.45803547
+12hondaPassport41,Honda Passport 2019,1,0.3833499
+21porsche911Speedster16,Porsche 911 Speedster 2019,1,0.5673648
+26toyotaRAV4-36,Toyota RAV4 2019,1,0.65845984
+17mercedesBenzA10,Mercedes-Benz A-Class 2019,1,0.530148
+22porscheCayenne15,Porsche Cayenne 2019,1,0.466683
+04audiA8-23,Volvo S60 2019,0,0.42106646
+21porsche911Speedster18,Porsche 911 Speedster 2019,1,0.6180094
+17mercedesBenzA9,Mercedes-Benz A-Class 2019,1,0.3501314
+17mercedesBenzA4,Honda Insight 2019,0,0.38419706
+14hyundaiVeloster37,Hyundai Veloster 2019,1,0.60120755
+25toyotaAvalon9,Lexus ES 2019,0,0.42365596
+05bmwX4-31,BMW X4 2019,1,0.55763406
+15lexusES24,Lexus ES 2019,1,0.49664837
+26toyotaRAV4-15,Chevrolet Blazer 2019,0,0.31000066
+19nissanAltima22,Nissan Altima 2019,1,0.5272352
+05bmwX4-19,BMW X4 2019,1,0.41871977
+22porscheCayenne14,Porsche Cayenne 2019,1,0.83364874
+11hondaInsight9,Acura NSX 2019,0,0
+13hyundaiSantaFe16,Hyundai Santa Fe 2019,1,0.50582623
+10fordTaurus1,Volkswagen Jetta 2019,0,0.34630138
+04audiA8-10,Ford Fusion Hybrid Titanium 2019,0,0.37781733
+08chevySilverado37,Chevrolet Silverado 2019,1,0.6666902
+21porsche911Speedster36,Porsche 911 Speedster 2019,1,0.33340594
+09fordFusionHybridTitanium8,Ford Fusion Hybrid Titanium 2019,1,0.4767596
+05bmwX4-26,BMW X4 2019,1,0.4947419
+07chevyBlazer4,Chevrolet Blazer 2019,1,0.74654514
+01acuraNSX29,Acura NSX 2019,1,0.5482316
+15lexusES26,Toyota Avalon 2019,0,0.5066317
+26toyotaRAV4-33,Toyota RAV4 2019,1,0.547304
+01acuraNSX16,Acura NSX 2019,1,0
+24subaruForester36,Subaru Ascent 2019,0,0.3710731
+19nissanAltima28,Acura NSX 2019,0,0
+27volkswagenArteon4,Volkswagen Arteon 2019,1,0.45473227
+22porscheCayenne40,Porsche Cayenne 2019,1,0.36289462
+22porscheCayenne27,Porsche Cayenne 2019,1,0.7395351
+09fordFusionHybridTitanium33,Ford Fusion Hybrid Titanium 2019,1,0.5359205
+29volvoS60-7,Volvo V60 2019,0,0.30935365
+21porsche911Speedster12,Porsche 911 Speedster 2019,1,0.4949934
+27volkswagenArteon3,Volvo S60 2019,0,0.30203938
+25toyotaAvalon25,Toyota Avalon 2019,1,0.6594726
+21porsche911Speedster31,Porsche 911 Speedster 2019,1,0.45219123
+10fordTaurus6,Ford Fusion Hybrid Titanium 2019,0,0.33967468
+09fordFusionHybridTitanium29,Acura NSX 2019,0,0
+05bmwX4-15,BMW X4 2019,1,0.57378316
+07chevyBlazer1,Chevrolet Blazer 2019,1,0.7356896
+04audiA8-14,Volvo V60 2019,0,0.3349192
+09fordFusionHybridTitanium3,Ford Fusion Hybrid Titanium 2019,1,0.8038888
+09fordFusionHybridTitanium18,Ford Fusion Hybrid Titanium 2019,1,0.7703316
+23subaruAscent2,Acura NSX 2019,0,0
+25toyotaAvalon15,Toyota Avalon 2019,1,0.719751
+20nissanLeafPlus13,Nissan Leaf Plus 2019,1,0.700485
+09fordFusionHybridTitanium17,Ford Fusion Hybrid Titanium 2019,1,0.57730395
+28volkswagenJetta25,Acura NSX 2019,0,0
+12hondaPassport37,Nissan Leaf Plus 2019,0,0.326299
+07chevyBlazer24,Chevrolet Blazer 2019,1,0.84540045
+24subaruForester5,Subaru Ascent 2019,0,0.4834304
+28volkswagenJetta20,Volkswagen Jetta 2019,1,0.5515321
+13hyundaiSantaFe41,Hyundai Santa Fe 2019,1,0.66234607
+30volvoV60-22,Acura NSX 2019,0,0
+24subaruForester1,Honda Passport 2019,0,0.40948218
+06bmwX5-26,BMW X5 2019,1,0.66146505
+24subaruForester35,Audi A6 2019,0,0.35486102
+22porscheCayenne20,Porsche Cayenne 2019,1,0.73943657
+28volkswagenJetta24,Volkswagen Jetta 2019,1,0.3750572
+12hondaPassport40,Honda Passport 2019,1,0.4541946
+01acuraNSX17,Acura NSX 2019,1,0.5447898
+15lexusES23,Lexus ES 2019,1,0.51971877
+16lexusUX9,Lexus UX 2019,1,0.50747496
+02acuraRDX17,Acura RDX 2019,1,0.53204274
+09fordFusionHybridTitanium12,Ford Fusion Hybrid Titanium 2019,1,0.7904184
+05bmwX4-17,BMW X4 2019,1,0.57248014
+02acuraRDX16,Acura NSX 2019,0,0
+28volkswagenJetta22,Volkswagen Jetta 2019,1,0.3449916
+12hondaPassport33,Honda Passport 2019,1,0.35732007
+01acuraNSX19,Acura NSX 2019,1,0.42319858
+19nissanAltima32,Nissan Altima 2019,1,0.44725364
+07chevyBlazer35,Chevrolet Blazer 2019,1,0.44148666
+04audiA8-30,Audi A8 2019,1,0.5165122
+21porsche911Speedster7,Porsche 911 Speedster 2019,1,0.6678069
+24subaruForester8,Subaru Forester 2019,1,0.5459921
+28volkswagenJetta19,Honda Insight 2019,0,0.5038485
+01acuraNSX21,Acura NSX 2019,1,0.6857151
+28volkswagenJetta31,Porsche Cayenne 2019,0,0.37129134
+11hondaInsight3,Mercedes-Benz A-Class 2019,0,0.31257546
+21porsche911Speedster11,Acura NSX 2019,0,0.52489984
+27volkswagenArteon29,Volkswagen Arteon 2019,1,0.6131594
+03audiA6-8,Audi A8 2019,0,0.5231109
+16lexusUX21,Lexus UX 2019,1,0.6109075
+03audiA6-32,Audi A6 2019,1,0.5666014
+11hondaInsight17,Honda Insight 2019,1,0.54635465
+20nissanLeafPlus32,Nissan Leaf Plus 2019,1,0.42713943
+14hyundaiVeloster1,Hyundai Veloster 2019,1,0.41804272
+04audiA8-16,Lexus ES 2019,0,0.4614418
+03audiA6-31,Audi A6 2019,1,0.66608095
+28volkswagenJetta8,Ford Taurus 2019,0,0.44475636
+04audiA8-17,Audi A6 2019,0,0.54535013
+05bmwX4-27,BMW X4 2019,1,0.56447667
+11hondaInsight1,Nissan Leaf Plus 2019,0,0.34860176
+12hondaPassport1,Subaru Ascent 2019,0,0.40915003
+02acuraRDX4,Volvo V60 2019,0,0.37204343
+15lexusES12,Lexus ES 2019,1,0.6416239
+19nissanAltima25,Audi A8 2019,0,0.3704711
+07chevyBlazer2,Chevrolet Blazer 2019,1,0.5619277
+12hondaPassport25,Honda Passport 2019,1,0.44644135
+17mercedesBenzA18,Volvo S60 2019,0,0.32437
+27volkswagenArteon23,Volkswagen Arteon 2019,1,0.47733527
+30volvoV60-6,Volvo V60 2019,1,0.6388594
+30volvoV60-36,Porsche Cayenne 2019,0,0.3818024
+15lexusES27,Lexus ES 2019,1,0.52643704
+18mercedesBenzG10,Mercedes-Benz G-Class 2019,1,0.6936314
+16lexusUX2,Lexus UX 2019,1,0.4476466
+18mercedesBenzG4,Mercedes-Benz G-Class 2019,1,0.7032692
+28volkswagenJetta34,Volkswagen Jetta 2019,1,0.5341143
+18mercedesBenzG5,Mercedes-Benz G-Class 2019,1,0.34272254
+13hyundaiSantaFe8,Hyundai Santa Fe 2019,1,0.53346425
+11hondaInsight30,Honda Insight 2019,1,0.42291924
+15lexusES33,Lexus ES 2019,1,0.6361795
+04audiA8-11,Audi A8 2019,1,0.42184976
+22porscheCayenne35,Porsche Cayenne 2019,1,0.4092644
+28volkswagenJetta38,Ford Taurus 2019,0,0.38897204
+09fordFusionHybridTitanium9,Ford Fusion Hybrid Titanium 2019,1,0.35567915
+22porscheCayenne30,Porsche Cayenne 2019,1,0.6213777
+09fordFusionHybridTitanium32,Volkswagen Jetta 2019,0,0.38205224
+06bmwX5-1,BMW X5 2019,1,0.34446502
+27volkswagenArteon16,Volkswagen Arteon 2019,1,0.50166726
+15lexusES30,Lexus ES 2019,1,0.6704042
+05bmwX4-18,BMW X4 2019,1,0.4947419
+23subaruAscent31,Subaru Forester 2019,0,0.48032883
+11hondaInsight21,Ford Taurus 2019,0,0.47271746
+01acuraNSX18,Acura NSX 2019,1,0.65004873
+14hyundaiVeloster29,Audi A8 2019,0,0.38638133
+15lexusES3,Lexus ES 2019,1,0.64449
+30volvoV60-26,Volvo S60 2019,0,0.48298207
+15lexusES37,Lexus ES 2019,1,0.6485412
+27volkswagenArteon30,Volkswagen Arteon 2019,1,0.6378162
+25toyotaAvalon8,Toyota Avalon 2019,1,0.66137916
+20nissanLeafPlus17,Nissan Leaf Plus 2019,1,0.8827118
+10fordTaurus8,Ford Fusion Hybrid Titanium 2019,0,0.60611326
+24subaruForester20,Subaru Forester 2019,1,0.5180215
+21porsche911Speedster9,Porsche 911 Speedster 2019,1,0.75852525
+30volvoV60-16,Volvo S60 2019,0,0.44826517
+10fordTaurus3,Volkswagen Jetta 2019,0,0.5870987
+15lexusES4,Lexus ES 2019,1,0.598142
+18mercedesBenzG19,BMW X5 2019,0,0.42379537
+08chevySilverado24,Chevrolet Silverado 2019,1,0.7623813
+09fordFusionHybridTitanium21,Ford Fusion Hybrid Titanium 2019,1,0.61015165
+25toyotaAvalon32,Toyota Avalon 2019,1,0.51560956
+30volvoV60-5,Volvo V60 2019,1,0.5188707
+16lexusUX7,Lexus UX 2019,1,0.71592396
+07chevyBlazer30,Chevrolet Blazer 2019,1,0.79876477
+08chevySilverado22,Chevrolet Silverado 2019,1,0.53452295
+17mercedesBenzA26,Audi A6 2019,0,0.5455313
+18mercedesBenzG27,Mercedes-Benz G-Class 2019,1,0.47722095
+13hyundaiSantaFe19,Hyundai Santa Fe 2019,1,0.37103784
+13hyundaiSantaFe24,Hyundai Santa Fe 2019,1,0.5584282
+03audiA6-15,Audi A6 2019,1,0.5977749
+07chevyBlazer10,Porsche Cayenne 2019,0,0.40936825
+15lexusES15,Volkswagen Arteon 2019,0,0.3039853
+13hyundaiSantaFe38,Acura NSX 2019,0,0
+10fordTaurus30,Ford Taurus 2019,1,0.6944879
+08chevySilverado28,Chevrolet Silverado 2019,1,0.8216684
+19nissanAltima17,Nissan Altima 2019,1,0.64519227
+14hyundaiVeloster6,Hyundai Veloster 2019,1,0.6947999
+07chevyBlazer6,Chevrolet Blazer 2019,1,0.6276954
+15lexusES39,Lexus ES 2019,1,0.5003973
+22porscheCayenne19,Porsche Cayenne 2019,1,0.7778424
+15lexusES42,Lexus ES 2019,1,0.55615073
+24subaruForester21,Subaru Ascent 2019,0,0.3960207
+11hondaInsight6,Ford Fusion Hybrid Titanium 2019,0,0.31119904
+01acuraNSX32,Acura NSX 2019,1,0
+13hyundaiSantaFe29,Hyundai Santa Fe 2019,1,0.48560852
+09fordFusionHybridTitanium7,Ford Fusion Hybrid Titanium 2019,1,0.68085694
+19nissanAltima4,Toyota Avalon 2019,0,0.4222749
+26toyotaRAV4-34,Toyota RAV4 2019,1,0.5434486
+11hondaInsight14,Honda Insight 2019,1,0.4707233
+06bmwX5-38,BMW X5 2019,1,0.5997425
+30volvoV60-3,Audi A6 2019,0,0.492634
+03audiA6-18,Audi A8 2019,0,0.54180354
+15lexusES14,Lexus ES 2019,1,0.5850301
+14hyundaiVeloster8,Hyundai Veloster 2019,1,0.5158486
+24subaruForester10,Subaru Forester 2019,1,0.31886482
+18mercedesBenzG24,Mercedes-Benz G-Class 2019,1,0.39844358
+10fordTaurus22,Ford Taurus 2019,1,0.48263747
+05bmwX4-36,BMW X5 2019,0,0.3862775
+07chevyBlazer15,Chevrolet Blazer 2019,1,0.6472883
+18mercedesBenzG14,Mercedes-Benz G-Class 2019,1,0.47655848
+05bmwX4-8,BMW X4 2019,1,0.51221186
+25toyotaAvalon19,Toyota Avalon 2019,1,0.50005543
+24subaruForester13,Acura NSX 2019,0,0
+21porsche911Speedster34,Porsche 911 Speedster 2019,1,0.71332854
+25toyotaAvalon13,Toyota Avalon 2019,1,0.38940066
+08chevySilverado34,Acura NSX 2019,0,0
+08chevySilverado17,Chevrolet Silverado 2019,1,0.60026944
+19nissanAltima11,Nissan Altima 2019,1,0.74094105
+23subaruAscent36,Acura RDX 2019,0,0.40565407
+25toyotaAvalon26,Toyota Avalon 2019,1,0.4714199
+13hyundaiSantaFe26,Hyundai Santa Fe 2019,1,0.5418477
+16lexusUX37,Acura NSX 2019,0,0
+15lexusES38,Lexus ES 2019,1,0.5893823
+27volkswagenArteon12,Volkswagen Arteon 2019,1,0.6045077
+09fordFusionHybridTitanium25,Ford Fusion Hybrid Titanium 2019,1,0.7593795
+23subaruAscent12,Subaru Ascent 2019,1,0.34557694
+14hyundaiVeloster39,Hyundai Veloster 2019,1,0.4022763
+19nissanAltima3,Nissan Altima 2019,1,0.66637605
+25toyotaAvalon12,Toyota Avalon 2019,1,0.4506455
+12hondaPassport6,Honda Passport 2019,1,0.51523906
+22porscheCayenne26,Porsche Cayenne 2019,1,0.4653118
+30volvoV60-19,Volvo V60 2019,1,0.3915928
+28volkswagenJetta29,Volkswagen Jetta 2019,1,0.4630275
+03audiA6-35,Volvo S60 2019,0,0.51785105
+16lexusUX32,Lexus UX 2019,1,0.65875727
+03audiA6-14,Lexus ES 2019,0,0.37464
+06bmwX5-10,BMW X5 2019,1,0.58177674
+28volkswagenJetta10,Volkswagen Jetta 2019,1,0.3811209
+08chevySilverado14,Chevrolet Silverado 2019,1,0.556594
+20nissanLeafPlus19,Nissan Leaf Plus 2019,1,0.7537927
+30volvoV60-24,Volvo V60 2019,1,0.3639375
+02acuraRDX7,Acura NSX 2019,0,0
+22porscheCayenne11,Porsche Cayenne 2019,1,0.5293872
+14hyundaiVeloster2,Acura NSX 2019,0,0
+13hyundaiSantaFe39,Hyundai Santa Fe 2019,1,0.52513075
+03audiA6-4,Audi A8 2019,0,0.48838717
+26toyotaRAV4-13,Toyota RAV4 2019,1,0.596107
+08chevySilverado44,Chevrolet Silverado 2019,1,0.77699363
+16lexusUX14,Lexus UX 2019,1,0.6909826
+26toyotaRAV4-3,Toyota RAV4 2019,1,0.50838417
+07chevyBlazer26,Chevrolet Blazer 2019,1,0.81839365
+19nissanAltima8,Nissan Altima 2019,1,0.6011675
+20nissanLeafPlus9,Nissan Leaf Plus 2019,1,0.7894372
+22porscheCayenne6,Porsche Cayenne 2019,1,0.5331675
+13hyundaiSantaFe10,Hyundai Santa Fe 2019,1,0.6001681
+20nissanLeafPlus38,Honda Insight 2019,0,0.36651048
+13hyundaiSantaFe11,Acura NSX 2019,0,0
+27volkswagenArteon28,Ford Fusion Hybrid Titanium 2019,0,0.4026741
+05bmwX4-11,BMW X4 2019,1,0.546732
+05bmwX4-22,BMW X5 2019,0,0.3862775
+14hyundaiVeloster10,Hyundai Veloster 2019,1,0.56698346
+19nissanAltima24,Nissan Altima 2019,1,0.79254586
+25toyotaAvalon36,Toyota Avalon 2019,1,0.5770533
+21porsche911Speedster3,Acura NSX 2019,0,0.34957063
+12hondaPassport21,Honda Passport 2019,1,0.6248576
+08chevySilverado30,Chevrolet Silverado 2019,1,0.83242595
+02acuraRDX29,Acura RDX 2019,1,0.72037303
+28volkswagenJetta12,Porsche Cayenne 2019,0,0.32144123
+10fordTaurus17,Ford Taurus 2019,1,0.7476592
+22porscheCayenne33,Porsche Cayenne 2019,1,0.8450947
+24subaruForester9,Subaru Forester 2019,1,0.4261131
+15lexusES1,Toyota Avalon 2019,0,0.4701423
+12hondaPassport14,Honda Passport 2019,1,0.5105301
+12hondaPassport13,Acura NSX 2019,0,0
+14hyundaiVeloster36,Nissan Leaf Plus 2019,0,0.39877954
+24subaruForester15,Subaru Ascent 2019,0,0.47354847
+30volvoV60-12,Acura NSX 2019,0,0
+06bmwX5-39,BMW X5 2019,1,0.5499384
+05bmwX4-35,BMW X5 2019,0,0.50098085
+24subaruForester25,Subaru Forester 2019,1,0.7194139
+08chevySilverado43,Chevrolet Silverado 2019,1,0.45313197
+15lexusES29,Lexus ES 2019,1,0.6225521
+06bmwX5-40,BMW X5 2019,1,0.5894737
+27volkswagenArteon19,Volkswagen Arteon 2019,1,0.4134286
+26toyotaRAV4-25,Hyundai Santa Fe 2019,0,0.39303946
+11hondaInsight20,Honda Insight 2019,1,0.47649807
+30volvoV60-27,Volvo V60 2019,1,0.4900689
+03audiA6-39,Audi A6 2019,1,0.5568937
+12hondaPassport19,Honda Passport 2019,1,0.67483383
+09fordFusionHybridTitanium35,Ford Fusion Hybrid Titanium 2019,1,0.39228842
+22porscheCayenne39,Porsche Cayenne 2019,1,0.6539196
+20nissanLeafPlus37,Nissan Leaf Plus 2019,1,0.659391
+15lexusES22,Lexus ES 2019,1,0.44328833
+10fordTaurus19,Ford Fusion Hybrid Titanium 2019,0,0.45701495
+04audiA8-29,Audi A6 2019,0,0.36073118
+18mercedesBenzG15,Honda Passport 2019,0,0.37679952
+25toyotaAvalon17,Toyota Avalon 2019,1,0.5305929
+08chevySilverado8,Chevrolet Silverado 2019,1,0.63498783
+16lexusUX29,Nissan Leaf Plus 2019,0,0.52323705
+20nissanLeafPlus4,Acura NSX 2019,0,0
+21porsche911Speedster32,Porsche 911 Speedster 2019,1,0.5154259
+25toyotaAvalon14,Toyota Avalon 2019,1,0.719751
+02acuraRDX24,Acura RDX 2019,1,0.62403476
+03audiA6-10,Audi A6 2019,1,0.39636785
+23subaruAscent27,Acura RDX 2019,0,0.33023536
+03audiA6-1,Audi A6 2019,1,0.4337033
+06bmwX5-29,BMW X5 2019,1,0.5814029
+04audiA8-25,Audi A6 2019,0,0.51240045
+30volvoV60-1,Ford Fusion Hybrid Titanium 2019,0,0.3785007
+26toyotaRAV4-31,Toyota RAV4 2019,1,0.6834111
+08chevySilverado13,Chevrolet Silverado 2019,1,0.7529721
+11hondaInsight13,Nissan Leaf Plus 2019,0,0.38053218
+02acuraRDX32,Acura RDX 2019,1,0.67044294
+03audiA6-13,Audi A8 2019,0,0.46451572
+10fordTaurus23,Ford Taurus 2019,1,0.5861837
+27volkswagenArteon2,Mercedes-Benz A-Class 2019,0,0.384826
+14hyundaiVeloster23,Hyundai Veloster 2019,1,0.64227617
+25toyotaAvalon16,Toyota Avalon 2019,1,0.5349925
+23subaruAscent7,Subaru Ascent 2019,1,0.47337717
+10fordTaurus21,Ford Taurus 2019,1,0.33061266
+12hondaPassport27,Honda Passport 2019,1,0.42734677
+13hyundaiSantaFe22,BMW X5 2019,0,0.44610387
+23subaruAscent20,Subaru Ascent 2019,1,0.38784102
+26toyotaRAV4-9,Toyota RAV4 2019,1,0.6644572
+11hondaInsight22,Honda Insight 2019,1,0.4359756
+24subaruForester23,Subaru Forester 2019,1,0.5449493
+18mercedesBenzG6,Mercedes-Benz G-Class 2019,1,0.34988332
+26toyotaRAV4-16,Toyota RAV4 2019,1,0.47721487
+26toyotaRAV4-37,Toyota RAV4 2019,1,0.5248386
+30volvoV60-7,Volvo V60 2019,1,0.38338006
+22porscheCayenne7,Porsche Cayenne 2019,1,0.4080357
+26toyotaRAV4-20,Toyota RAV4 2019,1,0.5697693
+02acuraRDX27,Acura RDX 2019,1,0.6204678
+19nissanAltima26,Nissan Altima 2019,1,0.32767072
+15lexusES32,Lexus ES 2019,1,0.667599
+02acuraRDX26,Acura RDX 2019,1,0.6387369
+13hyundaiSantaFe9,Porsche 911 Speedster 2019,0,0.648284
+13hyundaiSantaFe14,Hyundai Santa Fe 2019,1,0.56463706
+23subaruAscent5,Acura NSX 2019,0,0
+07chevyBlazer14,Chevrolet Blazer 2019,1,0.3888599
+25toyotaAvalon21,Toyota Avalon 2019,1,0.41175002
+03audiA6-20,Acura NSX 2019,0,0
+12hondaPassport12,Honda Passport 2019,1,0.44650567
+20nissanLeafPlus30,Nissan Leaf Plus 2019,1,0.556252
+12hondaPassport5,Subaru Ascent 2019,0,0.32385266
+21porsche911Speedster29,Porsche 911 Speedster 2019,1,0.58938056
+19nissanAltima31,Nissan Altima 2019,1,0.58243245
+28volkswagenJetta17,Acura NSX 2019,0,0
+01acuraNSX7,Acura NSX 2019,1,0.44511777
+05bmwX4-20,BMW X4 2019,1,0.55763406
+13hyundaiSantaFe2,Hyundai Santa Fe 2019,1,0.38557315
+06bmwX5-4,BMW X5 2019,1,0.57401997
+06bmwX5-2,Chevrolet Silverado 2019,0,0.354169
+07chevyBlazer11,Acura NSX 2019,0,0
+26toyotaRAV4-32,Toyota RAV4 2019,1,0.40233076
+01acuraNSX22,Acura NSX 2019,1,0.67977726
+18mercedesBenzG16,Mercedes-Benz G-Class 2019,1,0.5901942
+27volkswagenArteon6,Volkswagen Arteon 2019,1,0.4809166
+23subaruAscent16,Acura NSX 2019,0,0
+09fordFusionHybridTitanium4,Ford Fusion Hybrid Titanium 2019,1,0.57408303
+16lexusUX40,Lexus UX 2019,1,0.7079217
+07chevyBlazer7,Porsche Cayenne 2019,0,0.3938693
+26toyotaRAV4-26,Toyota RAV4 2019,1,0.437995
+09fordFusionHybridTitanium30,Ford Fusion Hybrid Titanium 2019,1,0.81003845
+28volkswagenJetta32,Ford Taurus 2019,0,0.4094861
+13hyundaiSantaFe35,Hyundai Santa Fe 2019,1,0.6194248
+26toyotaRAV4-5,Toyota RAV4 2019,1,0.68519735
+11hondaInsight23,Honda Insight 2019,1,0.4858298
+15lexusES35,Lexus ES 2019,1,0.32328945
+10fordTaurus11,Ford Taurus 2019,1,0.4732954
+12hondaPassport34,Volvo S60 2019,0,0.3245011
+23subaruAscent3,Acura NSX 2019,0,0
+15lexusES10,Lexus ES 2019,1,0.58596337
+22porscheCayenne3,Porsche Cayenne 2019,1,0.6792393
+27volkswagenArteon22,Volkswagen Arteon 2019,1,0.52185094
+24subaruForester37,Acura NSX 2019,0,0
+30volvoV60-4,Acura NSX 2019,0,0
+05bmwX4-5,BMW X4 2019,1,0.5007285
+04audiA8-19,Mercedes-Benz A-Class 2019,0,0.32903147
+02acuraRDX31,Hyundai Santa Fe 2019,0,0.37558642
+14hyundaiVeloster12,Hyundai Veloster 2019,1,0.80362946
+18mercedesBenzG1,Mercedes-Benz G-Class 2019,1,0.43909544
+12hondaPassport10,Honda Passport 2019,1,0.3977207
+02acuraRDX13,Acura RDX 2019,1,0.44911245
+06bmwX5-33,BMW X5 2019,1,0.5956856
+07chevyBlazer19,Subaru Ascent 2019,0,0.4054954
+19nissanAltima1,Acura NSX 2019,0,0
+25toyotaAvalon33,Volvo S60 2019,0,0.3768387
+28volkswagenJetta13,Ford Fusion Hybrid Titanium 2019,0,0.31278706
+03audiA6-21,Audi A6 2019,1,0.37296817
+20nissanLeafPlus20,Nissan Leaf Plus 2019,1,0.42848668
+05bmwX4-40,BMW X5 2019,0,0.53478134
+16lexusUX20,Lexus UX 2019,1,0.6819972
+20nissanLeafPlus10,Nissan Leaf Plus 2019,1,0.40554795
+11hondaInsight24,Nissan Altima 2019,0,0.6062592
+22porscheCayenne17,Porsche Cayenne 2019,1,0.55639136
+19nissanAltima6,Nissan Altima 2019,1,0.71461225
+23subaruAscent23,Subaru Ascent 2019,1,0.32366323
+09fordFusionHybridTitanium11,Ford Fusion Hybrid Titanium 2019,1,0.6265527
+03audiA6-28,Audi A6 2019,1,0.5321071
+08chevySilverado18,Chevrolet Silverado 2019,1,0.43748504
+19nissanAltima30,Nissan Altima 2019,1,0.58870393
+09fordFusionHybridTitanium26,Ford Fusion Hybrid Titanium 2019,1,0.7024932
+18mercedesBenzG9,Chevrolet Silverado 2019,0,0.4294642
+10fordTaurus36,Volkswagen Arteon 2019,0,0.5143651
+16lexusUX39,Lexus UX 2019,1,0.41406012
+22porscheCayenne29,Ford Fusion Hybrid Titanium 2019,0,0.40425652
+28volkswagenJetta18,Volkswagen Jetta 2019,1,0.49798095
+14hyundaiVeloster9,Hyundai Veloster 2019,1,0.673717
+19nissanAltima10,Nissan Altima 2019,1,0.5908893
+03audiA6-22,Audi A6 2019,1,0.6609657
+24subaruForester26,Subaru Forester 2019,1,0.43944147
+10fordTaurus18,Ford Taurus 2019,1,0.6615189
+09fordFusionHybridTitanium2,Toyota Avalon 2019,0,0.4041471
+21porsche911Speedster33,Porsche 911 Speedster 2019,1,0.47581607
+04audiA8-5,Audi A6 2019,0,0.44066754
+29volvoS60-1,Volvo V60 2019,0,0.33489135
+06bmwX5-34,BMW X5 2019,1,0.50390667
+02acuraRDX28,Acura RDX 2019,1,0.48139465
+12hondaPassport23,Honda Passport 2019,1,0.57309055
+04audiA8-20,Audi A6 2019,0,0.5520796
+14hyundaiVeloster16,Hyundai Veloster 2019,1,0.5584695
+07chevyBlazer5,Porsche Cayenne 2019,0,0.4244968
+09fordFusionHybridTitanium20,Ford Fusion Hybrid Titanium 2019,1,0.492987
+20nissanLeafPlus25,Nissan Altima 2019,0,0.42553705
+13hyundaiSantaFe12,Acura NSX 2019,0,0
+18mercedesBenzG21,Mercedes-Benz G-Class 2019,1,0.34772307
+04audiA8-22,BMW X5 2019,0,0.44059312
+29volvoS60-12,Volvo S60 2019,1,0.42652267
+06bmwX5-20,BMW X5 2019,1,0.47929862
+15lexusES2,Lexus ES 2019,1,0.6387818
+02acuraRDX12,Acura RDX 2019,1,0.49531153
+19nissanAltima12,Nissan Altima 2019,1,0.40115494
+18mercedesBenzG20,Mercedes-Benz G-Class 2019,1,0.4122197
+22porscheCayenne21,Porsche Cayenne 2019,1,0.573866
+12hondaPassport35,Subaru Ascent 2019,0,0.43573785
+26toyotaRAV4-17,Toyota RAV4 2019,1,0.41039866
+24subaruForester16,Subaru Forester 2019,1,0.48741117
+06bmwX5-15,BMW X5 2019,1,0.52239776
+08chevySilverado35,Chevrolet Silverado 2019,1,0.60457766
+25toyotaAvalon34,Lexus ES 2019,0,0.55171067
+20nissanLeafPlus14,Nissan Leaf Plus 2019,1,0.7439023
+27volkswagenArteon7,Volkswagen Arteon 2019,1,0.31834722
+06bmwX5-24,BMW X5 2019,1,0.5986464
+20nissanLeafPlus12,Honda Insight 2019,0,0.42138323
+21porsche911Speedster8,Porsche 911 Speedster 2019,1,0.494901
+26toyotaRAV4-18,Hyundai Santa Fe 2019,0,0.4409119
+05bmwX4-10,BMW X4 2019,1,0.63701445
+14hyundaiVeloster25,Hyundai Veloster 2019,1,0.5981571
+17mercedesBenzA8,Mercedes-Benz A-Class 2019,1,0.6357093
+08chevySilverado26,Chevrolet Silverado 2019,1,0.40047166
+28volkswagenJetta21,Volkswagen Jetta 2019,1,0.4660111
+05bmwX4-12,Porsche Cayenne 2019,0,0.43958652
+18mercedesBenzG32,Acura NSX 2019,0,0
+05bmwX4-29,BMW X5 2019,0,0.5829969
+17mercedesBenzA27,Mercedes-Benz A-Class 2019,1,0.37993318
+09fordFusionHybridTitanium22,Ford Fusion Hybrid Titanium 2019,1,0.7885666
+10fordTaurus20,Ford Fusion Hybrid Titanium 2019,0,0.57812035
+14hyundaiVeloster22,Hyundai Veloster 2019,1,0.67170066
+17mercedesBenzA16,Mercedes-Benz A-Class 2019,1,0.46627322
+01acuraNSX8,Acura NSX 2019,1,0.7748411
+15lexusES43,Toyota Avalon 2019,0,0.44740465
+05bmwX4-28,BMW X4 2019,1,0.50374526
+09fordFusionHybridTitanium39,Ford Fusion Hybrid Titanium 2019,1,0.72782093
+28volkswagenJetta9,Honda Insight 2019,0,0.48406222
+20nissanLeafPlus27,Nissan Leaf Plus 2019,1,0.42713943
+02acuraRDX20,Acura RDX 2019,1,0.53997195
+30volvoV60-37,Acura NSX 2019,0,0
+08chevySilverado42,Chevrolet Silverado 2019,1,0.40621462
+08chevySilverado29,Chevrolet Silverado 2019,1,0.45313197
+30volvoV60-17,Volvo V60 2019,1,0.35672158
+08chevySilverado27,Chevrolet Silverado 2019,1,0.5021126
+06bmwX5-18,Volvo V60 2019,0,0.3249719
+18mercedesBenzG13,Mercedes-Benz G-Class 2019,1,0.5189064
+01acuraNSX12,Acura NSX 2019,1,0.30322343
+05bmwX4-6,BMW X4 2019,1,0.52551734
+01acuraNSX10,Acura NSX 2019,1,0.73496926
+12hondaPassport39,Honda Passport 2019,1,0.51137966
+24subaruForester18,Subaru Forester 2019,1,0.6470364
+15lexusES8,Lexus ES 2019,1,0.4443267
+05bmwX4-33,BMW X4 2019,1,0.5890423
+25toyotaAvalon35,Toyota Avalon 2019,1,0.54065245
+01acuraNSX14,Acura NSX 2019,1,0.77779907
+08chevySilverado2,Chevrolet Silverado 2019,1,0.5958033
+08chevySilverado41,Chevrolet Silverado 2019,1,0.46010518
+10fordTaurus2,Honda Insight 2019,0,0.37469453
+07chevyBlazer28,BMW X5 2019,0,0.36688998
+04audiA8-2,Audi A8 2019,1,0.43217245
+12hondaPassport8,Honda Passport 2019,1,0.47022438
+07chevyBlazer20,Chevrolet Blazer 2019,1,0.6276954
+07chevyBlazer16,Lexus UX 2019,0,0.33822572
+08chevySilverado31,Chevrolet Silverado 2019,1,0.43628836
+28volkswagenJetta7,Ford Fusion Hybrid Titanium 2019,0,0.4384959
+20nissanLeafPlus33,Nissan Leaf Plus 2019,1,0.531276
+13hyundaiSantaFe20,Chevrolet Blazer 2019,0,0.5825228
+27volkswagenArteon5,Volkswagen Arteon 2019,1,0.5022459
+13hyundaiSantaFe15,Toyota RAV4 2019,0,0.3938668
+16lexusUX31,Lexus UX 2019,1,0.65794533
+07chevyBlazer29,Chevrolet Blazer 2019,1,0.64965653
+16lexusUX11,Hyundai Veloster 2019,0,0.3284249
+03audiA6-34,Audi A6 2019,1,0.63446933
+08chevySilverado40,Chevrolet Silverado 2019,1,0.74633396
+12hondaPassport36,Honda Passport 2019,1,0.5144076
+24subaruForester30,Acura RDX 2019,0,0.35978964
+23subaruAscent17,Acura NSX 2019,0,0
+16lexusUX24,Lexus UX 2019,1,0.4658534
+28volkswagenJetta3,Ford Taurus 2019,0,0.388617
+20nissanLeafPlus6,Nissan Leaf Plus 2019,1,0.73199886
+01acuraNSX2,Acura NSX 2019,1,0.61178195
+03audiA6-2,Audi A6 2019,1,0.54205865
+06bmwX5-16,BMW X5 2019,1,0.4393267
+14hyundaiVeloster24,Ford Fusion Hybrid Titanium 2019,0,0.36971834
+08chevySilverado25,Chevrolet Silverado 2019,1,0.8174381
+10fordTaurus39,Ford Taurus 2019,1,0.4048136
+09fordFusionHybridTitanium23,Ford Fusion Hybrid Titanium 2019,1,0.40237224
+02acuraRDX1,Acura RDX 2019,1,0.6038426
+12hondaPassport26,Honda Passport 2019,1,0.6265848
+15lexusES5,Lexus ES 2019,1,0.6350691
+24subaruForester19,Subaru Forester 2019,1,0.3288507
+03audiA6-3,Audi A6 2019,1,0.32525826
+13hyundaiSantaFe17,Hyundai Santa Fe 2019,1,0.42328984
+28volkswagenJetta23,Honda Insight 2019,0,0.35770485
+09fordFusionHybridTitanium14,Ford Fusion Hybrid Titanium 2019,1,0.6752764
+22porscheCayenne36,Porsche Cayenne 2019,1,0.35418272
+03audiA6-27,Audi A6 2019,1,0.5587224
+11hondaInsight8,Honda Insight 2019,1,0.5081756
+21porsche911Speedster35,Porsche 911 Speedster 2019,1,0.3549943
+08chevySilverado7,Chevrolet Silverado 2019,1,0.6948398
+05bmwX4-14,BMW X4 2019,1,0.53388023
+24subaruForester27,Subaru Forester 2019,1,0.40445593
+27volkswagenArteon10,Volkswagen Arteon 2019,1,0.5597643
+13hyundaiSantaFe7,Hyundai Santa Fe 2019,1,0.32359713
+12hondaPassport24,Honda Passport 2019,1,0.6232873
+28volkswagenJetta35,Volkswagen Jetta 2019,1,0.64632505
+30volvoV60-9,Volvo S60 2019,0,0.531217
+08chevySilverado4,Chevrolet Silverado 2019,1,0.8439988
+23subaruAscent11,Subaru Ascent 2019,1,0.51827127
+29volvoS60-5,Porsche Cayenne 2019,0,0.3795741
+18mercedesBenzG23,Mercedes-Benz G-Class 2019,1,0.6756675
+16lexusUX23,Lexus UX 2019,1,0.7028053
+12hondaPassport16,Honda Passport 2019,1,0.5948502
+18mercedesBenzG17,Mercedes-Benz G-Class 2019,1,0.68073475
+14hyundaiVeloster35,Hyundai Veloster 2019,1,0.629175
+20nissanLeafPlus24,Nissan Leaf Plus 2019,1,0.4836664
+10fordTaurus5,Mercedes-Benz A-Class 2019,0,0.4038756
+27volkswagenArteon26,Acura NSX 2019,0,0
+08chevySilverado21,Chevrolet Silverado 2019,1,0.33078068
+22porscheCayenne31,Porsche Cayenne 2019,1,0.47318769
+09fordFusionHybridTitanium1,Ford Taurus 2019,0,0.31190574
+20nissanLeafPlus3,Nissan Leaf Plus 2019,1,0.5496495
+02acuraRDX15,Acura RDX 2019,1,0.57757014
+20nissanLeafPlus29,Nissan Leaf Plus 2019,1,0.7072092
+12hondaPassport42,Honda Passport 2019,1,0.4944557
+10fordTaurus25,Ford Taurus 2019,1,0.6403248
+05bmwX4-32,BMW X5 2019,0,0.5329793
+10fordTaurus24,Ford Fusion Hybrid Titanium 2019,0,0.5166233
+21porsche911Speedster14,Porsche 911 Speedster 2019,1,0.742816
+14hyundaiVeloster40,Hyundai Veloster 2019,1,0.4943
+06bmwX5-23,BMW X5 2019,1,0.5983743
+24subaruForester14,Subaru Forester 2019,1,0.41131094
+14hyundaiVeloster11,Acura NSX 2019,0,0
+09fordFusionHybridTitanium6,Ford Fusion Hybrid Titanium 2019,1,0.46276265
+13hyundaiSantaFe23,Hyundai Santa Fe 2019,1,0.547434
+29volvoS60-8,Volvo S60 2019,1,0.48002318
+23subaruAscent29,Mercedes-Benz G-Class 2019,0,0.44583935
+08chevySilverado36,Acura NSX 2019,0,0
+22porscheCayenne34,Porsche Cayenne 2019,1,0.54176307
+30volvoV60-11,Volvo V60 2019,1,0.4873347
+16lexusUX38,Lexus UX 2019,1,0.68499506
+01acuraNSX27,Acura NSX 2019,1,0.69138247
+08chevySilverado39,Chevrolet Silverado 2019,1,0.3285736
+10fordTaurus10,Ford Taurus 2019,1,0.43162477
+05bmwX4-39,BMW X5 2019,0,0.58689505
+30volvoV60-14,Volvo V60 2019,1,0.56769425
+06bmwX5-5,BMW X5 2019,1,0.6254101
+14hyundaiVeloster4,Hyundai Veloster 2019,1,0.6439547
+24subaruForester17,Honda Passport 2019,0,0.44871855
+22porscheCayenne24,Porsche Cayenne 2019,1,0.4533577
+06bmwX5-11,BMW X5 2019,1,0.47324532
+17mercedesBenzA13,Mercedes-Benz A-Class 2019,1,0.49195156
+18mercedesBenzG30,Mercedes-Benz G-Class 2019,1,0.5204138
+23subaruAscent38,Acura NSX 2019,0,0
+06bmwX5-36,BMW X5 2019,1,0.60775614
+03audiA6-36,Audi A6 2019,1,0.6181706
+03audiA6-17,Toyota Avalon 2019,0,0.55260324
+07chevyBlazer31,Chevrolet Blazer 2019,1,0.34729624
+02acuraRDX6,Acura RDX 2019,1,0.60779524
+06bmwX5-27,BMW X5 2019,1,0.51878357
+23subaruAscent1,Acura NSX 2019,0,0
+14hyundaiVeloster19,Hyundai Veloster 2019,1,0.53994626
+20nissanLeafPlus36,Nissan Leaf Plus 2019,1,0.659391
+10fordTaurus16,Ford Taurus 2019,1,0.41936058
+07chevyBlazer17,Chevrolet Blazer 2019,1,0.7800447
+18mercedesBenzG2,Mercedes-Benz G-Class 2019,1,0.7226389
+03audiA6-23,Audi A6 2019,1,0.6874082
+24subaruForester32,Honda Passport 2019,0,0.44529787
+24subaruForester31,Honda Passport 2019,0,0.31261343
+23subaruAscent22,Subaru Ascent 2019,1,0.31254303
+12hondaPassport29,Honda Passport 2019,1,0.5575429
+02acuraRDX5,Chevrolet Blazer 2019,0,0.43772304
+20nissanLeafPlus22,Nissan Leaf Plus 2019,1,0.420332
+12hondaPassport4,Subaru Ascent 2019,0,0.43500948
+05bmwX4-3,BMW X5 2019,0,0.55621314
+02acuraRDX18,Acura RDX 2019,1,0.5693495
+15lexusES17,Lexus ES 2019,1,0.416408
+14hyundaiVeloster33,Acura NSX 2019,0,0
+13hyundaiSantaFe42,Hyundai Santa Fe 2019,1,0.64575016
+02acuraRDX11,Acura RDX 2019,1,0.7244694
+30volvoV60-21,Volvo V60 2019,1,0.39217788
+04audiA8-21,Audi A8 2019,1,0.6100657
+13hyundaiSantaFe1,Hyundai Santa Fe 2019,1,0.42946225
+01acuraNSX6,Acura NSX 2019,1,0
+09fordFusionHybridTitanium15,Ford Fusion Hybrid Titanium 2019,1,0.68579984
+29volvoS60-3,Ford Fusion Hybrid Titanium 2019,0,0.36212993
+02acuraRDX23,Porsche Cayenne 2019,0,0.32646632
+16lexusUX18,Lexus UX 2019,1,0.69516504
+20nissanLeafPlus7,Nissan Leaf Plus 2019,1,0.436817
+14hyundaiVeloster5,Hyundai Veloster 2019,1,0.41805455
+06bmwX5-35,BMW X5 2019,1,0.6267645
+13hyundaiSantaFe6,Hyundai Santa Fe 2019,1,0.69487226
+11hondaInsight5,Volkswagen Arteon 2019,0,0.42651007
+18mercedesBenzG8,Mercedes-Benz G-Class 2019,1,0.8275026
+28volkswagenJetta36,Volkswagen Jetta 2019,1,0.5211206
+23subaruAscent10,Subaru Forester 2019,0,0.45268348
+19nissanAltima23,Nissan Altima 2019,1,0.5871209
+16lexusUX27,Lexus UX 2019,1,0.7357973
+14hyundaiVeloster3,Hyundai Veloster 2019,1,0.7473355
+25toyotaAvalon24,Toyota Avalon 2019,1,0.61658335
+03audiA6-9,Audi A8 2019,0,0.31023028
+04audiA8-9,Volvo S60 2019,0,0.31350857
+09fordFusionHybridTitanium16,Ford Fusion Hybrid Titanium 2019,1,0.6887006
+25toyotaAvalon2,Lexus ES 2019,0,0.500854
+08chevySilverado12,Chevrolet Silverado 2019,1,0.46516243
+05bmwX4-16,BMW X4 2019,1,0.45642656
+14hyundaiVeloster13,Hyundai Veloster 2019,1,0.6854615
+28volkswagenJetta27,Volkswagen Jetta 2019,1,0.5043253
+04audiA8-15,Audi A6 2019,0,0.51357806
+16lexusUX19,Lexus UX 2019,1,0.7469356
+13hyundaiSantaFe32,Acura RDX 2019,0,0.52497524
+08chevySilverado11,Chevrolet Silverado 2019,1,0.76437116
+20nissanLeafPlus1,Acura NSX 2019,0,0
+08chevySilverado16,Acura NSX 2019,0,0
+02acuraRDX22,Acura RDX 2019,1,0.78556323
+10fordTaurus29,Ford Taurus 2019,1,0.34317017
+13hyundaiSantaFe3,Hyundai Santa Fe 2019,1,0.45242667
+30volvoV60-31,Volvo S60 2019,0,0.43594843
+06bmwX5-28,BMW X5 2019,1,0.4846391
+30volvoV60-35,Volvo V60 2019,1,0.3008269
+24subaruForester6,BMW X5 2019,0,0.3879209
+09fordFusionHybridTitanium28,Ford Fusion Hybrid Titanium 2019,1,0.5143533
+12hondaPassport18,Honda Passport 2019,1,0.40164977
+04audiA8-28,Volvo S60 2019,0,0.39029196
+15lexusES13,Lexus ES 2019,1,0.5835804
+22porscheCayenne12,Porsche Cayenne 2019,1,0.49709967
+25toyotaAvalon5,Toyota Avalon 2019,1,0.45876318
+13hyundaiSantaFe37,Hyundai Santa Fe 2019,1,0.429181
+12hondaPassport44,Toyota RAV4 2019,0,0.417193
+08chevySilverado3,Chevrolet Silverado 2019,1,0.7111522
+10fordTaurus35,Nissan Leaf Plus 2019,0,0.40394235
+10fordTaurus31,Ford Taurus 2019,1,0.61644787
+06bmwX5-25,BMW X5 2019,1,0.62303936
+01acuraNSX28,Acura NSX 2019,1,0.8876077
+23subaruAscent30,Subaru Forester 2019,0,0.40747803
+06bmwX5-3,BMW X5 2019,1,0.5685908
+01acuraNSX1,Acura NSX 2019,1,0.76310337
+28volkswagenJetta30,Volkswagen Jetta 2019,1,0.63790673
+25toyotaAvalon6,Toyota Avalon 2019,1,0.48468176
+29volvoS60-10,Ford Fusion Hybrid Titanium 2019,0,0.40142804
+06bmwX5-21,BMW X5 2019,1,0.48796743
+07chevyBlazer23,BMW X4 2019,0,0.31470025
+22porscheCayenne37,Porsche Cayenne 2019,1,0.7221248
+22porscheCayenne16,Porsche 911 Speedster 2019,0,0.42800692
+07chevyBlazer21,Chevrolet Blazer 2019,1,0.45221415
+16lexusUX30,Lexus UX 2019,1,0.6675038
+02acuraRDX19,Acura RDX 2019,1,0.5386267
+22porscheCayenne8,Porsche 911 Speedster 2019,0,0.5495182
+04audiA8-13,Acura NSX 2019,0,0
+23subaruAscent37,Subaru Ascent 2019,1,0.45884773
+11hondaInsight4,Honda Insight 2019,1,0.4578583
+26toyotaRAV4-4,Toyota RAV4 2019,1,0.6265069
+15lexusES7,Lexus ES 2019,1,0.54063386
+23subaruAscent33,Subaru Ascent 2019,1,0.42799255
+10fordTaurus27,Toyota Avalon 2019,0,0.42047283
+10fordTaurus4,Ford Taurus 2019,1,0.42102578
+03audiA6-30,Audi A6 2019,1,0.64848495
+09fordFusionHybridTitanium36,Audi A8 2019,0,0.32094455
+15lexusES16,Lexus ES 2019,1,0.39789283
+01acuraNSX13,Acura NSX 2019,1,0.59426445
+15lexusES28,Lexus ES 2019,1,0.62831366
+10fordTaurus15,Ford Taurus 2019,1,0.61578023
+05bmwX4-13,BMW X4 2019,1,0.44745076
+18mercedesBenzG39,Audi A8 2019,0,0.32948107
+20nissanLeafPlus18,Nissan Altima 2019,0,0.38584983
+17mercedesBenzA17,Mercedes-Benz A-Class 2019,1,0.6716411
+10fordTaurus33,Ford Taurus 2019,1,0.5675435
+17mercedesBenzA6,Honda Insight 2019,0,0.3583271
+22porscheCayenne38,Subaru Ascent 2019,0,0.41144177
+21porsche911Speedster1,Acura NSX 2019,0,0.35943216
+15lexusES19,Lexus ES 2019,1,0.64148736
+22porscheCayenne41,Porsche Cayenne 2019,1,0.777357
+03audiA6-26,Audi A6 2019,1,0.6554646
+22porscheCayenne13,Porsche Cayenne 2019,1,0.72763956
+24subaruForester4,Subaru Forester 2019,1,0.5739711
+16lexusUX26,Lexus ES 2019,0,0.31286108
+26toyotaRAV4-24,Toyota RAV4 2019,1,0.5420623
+29volvoS60-6,Volvo V60 2019,0,0.392206
+09fordFusionHybridTitanium41,Ford Fusion Hybrid Titanium 2019,1,0.83547866
+05bmwX4-24,BMW X4 2019,1,0.4836041
+07chevyBlazer27,Acura NSX 2019,0,0
+21porsche911Speedster4,Porsche 911 Speedster 2019,1,0.73331344
+05bmwX4-21,Volvo V60 2019,0,0.35077178
+26toyotaRAV4-22,Toyota RAV4 2019,1,0.69388825
+27volkswagenArteon8,Volkswagen Arteon 2019,1,0.60860974
+02acuraRDX9,Acura RDX 2019,1,0.43879718
+01acuraNSX4,Acura NSX 2019,1,0.45688042
+20nissanLeafPlus5,Acura NSX 2019,0,0
+20nissanLeafPlus35,Nissan Leaf Plus 2019,1,0.6498323
+04audiA8-18,Audi A6 2019,0,0.48906288
+21porsche911Speedster21,Porsche 911 Speedster 2019,1,0.5200036
+21porsche911Speedster37,Lexus ES 2019,0,0.36331406
+10fordTaurus28,Honda Insight 2019,0,0.36265913
+23subaruAscent6,Subaru Forester 2019,0,0.38789195
+08chevySilverado1,Chevrolet Silverado 2019,1,0.6074202
+15lexusES34,Lexus ES 2019,1,0.5591776
+12hondaPassport28,Honda Passport 2019,1,0.5353933
+17mercedesBenzA23,Volvo V60 2019,0,0.3879459
+30volvoV60-25,Audi A6 2019,0,0.36497307
+13hyundaiSantaFe40,Hyundai Santa Fe 2019,1,0.6220794
+23subaruAscent39,Honda Passport 2019,0,0.4692913
+18mercedesBenzG12,Mercedes-Benz G-Class 2019,1,0.7005782
+08chevySilverado20,Chevrolet Silverado 2019,1,0.82682335
+12hondaPassport32,Honda Passport 2019,1,0.44168666
+01acuraNSX31,Acura NSX 2019,1,0.3990218
+03audiA6-6,Audi A8 2019,0,0.31023028
+08chevySilverado33,Chevrolet Silverado 2019,1,0.5882976
+04audiA8-24,Mercedes-Benz A-Class 2019,0,0.417801
+17mercedesBenzA2,Acura NSX 2019,0,0
+21porsche911Speedster22,Lexus UX 2019,0,0.5286659
+09fordFusionHybridTitanium37,Ford Fusion Hybrid Titanium 2019,1,0.7098658
+17mercedesBenzA21,Mercedes-Benz A-Class 2019,1,0.55408406
+10fordTaurus12,Ford Taurus 2019,1,0.6488453
+16lexusUX5,Lexus UX 2019,1,0.5711018
+18mercedesBenzG31,Mercedes-Benz G-Class 2019,1,0.695357
+24subaruForester39,Subaru Forester 2019,1,0.4188203
+16lexusUX6,Hyundai Veloster 2019,0,0.33629274
+09fordFusionHybridTitanium19,Ford Fusion Hybrid Titanium 2019,1,0.46104807
+04audiA8-26,Audi A6 2019,0,0.3953006
+15lexusES6,Lexus ES 2019,1,0.33566624
+01acuraNSX3,Acura NSX 2019,1,0.7090568
+25toyotaAvalon27,Toyota Avalon 2019,1,0.5730099
+26toyotaRAV4-11,Toyota RAV4 2019,1,0.5243903
+26toyotaRAV4-30,Toyota RAV4 2019,1,0.48698542
+23subaruAscent26,Subaru Forester 2019,0,0.44208366
+18mercedesBenzG35,Acura NSX 2019,0,0
+06bmwX5-41,BMW X5 2019,1,0.60598624
+13hyundaiSantaFe34,Acura NSX 2019,0,0
+18mercedesBenzG7,Acura NSX 2019,0,0
