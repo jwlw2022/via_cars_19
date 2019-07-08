@@ -1,0 +1,164 @@
+Answer,Prediction,Correctness
+15lexusES8,Nissan Altima 2019,0
+09fordFusionHybridTitanium42,Ford Fusion Hybrid Titanium 2019,1
+02acuraRDX15,Volvo V60 2019,0
+14hyundaiVeloster37,Hyundai Veloster 2019,1
+14hyundaiVeloster33,Hyundai Veloster 2019,1
+06bmwX5-8,BMW X5 2019,1
+21porsche911Speedster21,Porsche 911 Speedster 2019,1
+02acuraRDX30,Subaru Ascent 2019,0
+24subaruForester26,Nissan Leaf Plus 2019,0
+29volvoS60-8,Audi A6 2019,0
+15lexusES3,Lexus ES 2019,1
+13hyundaiSantaFe12,Porsche 911 Speedster 2019,0
+23subaruAscent26,Subaru Ascent 2019,1
+12hondaPassport44,Mercedes-Benz A-Class 2019,0
+16lexusUX15,Lexus UX 2019,1
+27volkswagenArteon4,Volkswagen Arteon 2019,1
+10fordTaurus5,Mercedes-Benz A-Class 2019,0
+13hyundaiSantaFe42,Hyundai Santa Fe 2019,1
+26toyotaRAV4-26,Acura RDX 2019,0
+28volkswagenJetta29,Audi A6 2019,0
+18mercedesBenzG12,Mercedes-Benz G-Class 2019,1
+09fordFusionHybridTitanium25,Ford Fusion Hybrid Titanium 2019,1
+10fordTaurus6,Ford Fusion Hybrid Titanium 2019,0
+19nissanAltima24,Nissan Altima 2019,1
+08chevySilverado8,Chevrolet Silverado 2019,1
+17mercedesBenzA5,Mercedes-Benz A-Class 2019,1
+11hondaInsight5,Mercedes-Benz A-Class 2019,0
+17mercedesBenzA22,Mercedes-Benz A-Class 2019,1
+10fordTaurus29,Ford Taurus 2019,1
+27volkswagenArteon26,BMW X4 2019,0
+14hyundaiVeloster5,Volvo S60 2019,0
+24subaruForester27,Subaru Forester 2019,1
+22porscheCayenne28,Porsche Cayenne 2019,1
+03audiA6-13,Mercedes-Benz G-Class 2019,0
+17mercedesBenzA23,Mercedes-Benz A-Class 2019,1
+06bmwX5-18,Acura NSX 2019,0
+27volkswagenArteon15,Volkswagen Arteon 2019,1
+16lexusUX6,Lexus UX 2019,1
+27volkswagenArteon23,Nissan Altima 2019,0
+19nissanAltima17,Nissan Altima 2019,1
+30volvoV60-18,Mercedes-Benz G-Class 2019,0
+12hondaPassport26,Honda Passport 2019,1
+01acuraNSX10,Acura NSX 2019,1
+25toyotaAvalon18,Nissan Leaf Plus 2019,0
+16lexusUX12,Lexus UX 2019,1
+21porsche911Speedster6,Porsche 911 Speedster 2019,1
+11hondaInsight6,Ford Taurus 2019,0
+26toyotaRAV4-22,Toyota RAV4 2019,1
+22porscheCayenne30,Porsche Cayenne 2019,1
+16lexusUX7,Lexus UX 2019,1
+22porscheCayenne22,Porsche Cayenne 2019,1
+03audiA6-8,Volvo S60 2019,0
+30volvoV60-2,Volvo S60 2019,0
+05bmwX4-16,Mercedes-Benz A-Class 2019,0
+05bmwX4-30,Volvo V60 2019,0
+07chevyBlazer31,Volvo S60 2019,0
+21porsche911Speedster25,Porsche 911 Speedster 2019,1
+06bmwX5-33,BMW X5 2019,1
+13hyundaiSantaFe15,Subaru Ascent 2019,0
+12hondaPassport31,Nissan Altima 2019,0
+20nissanLeafPlus28,Lexus ES 2019,0
+25toyotaAvalon37,Nissan Altima 2019,0
+02acuraRDX12,Volvo V60 2019,0
+17mercedesBenzA4,Audi A8 2019,0
+13hyundaiSantaFe41,Hyundai Santa Fe 2019,1
+18mercedesBenzG27,Mercedes-Benz G-Class 2019,1
+12hondaPassport23,Honda Passport 2019,1
+28volkswagenJetta19,Ford Taurus 2019,0
+20nissanLeafPlus2,Volvo V60 2019,0
+16lexusUX40,Lexus UX 2019,1
+07chevyBlazer27,Mercedes-Benz G-Class 2019,0
+20nissanLeafPlus21,Nissan Altima 2019,0
+18mercedesBenzG13,Mercedes-Benz G-Class 2019,1
+25toyotaAvalon2,Lexus ES 2019,0
+29volvoS60-10,Volvo V60 2019,0
+27volkswagenArteon16,Ford Taurus 2019,0
+03audiA6-33,Acura NSX 2019,0
+27volkswagenArteon6,Mercedes-Benz A-Class 2019,0
+26toyotaRAV4-31,Toyota RAV4 2019,1
+23subaruAscent2,Subaru Ascent 2019,1
+10fordTaurus21,Ford Taurus 2019,1
+15lexusES24,BMW X5 2019,0
+04audiA8-12,Audi A8 2019,1
+27volkswagenArteon25,Audi A8 2019,0
+17mercedesBenzA24,Mercedes-Benz A-Class 2019,1
+19nissanAltima26,Nissan Altima 2019,1
+13hyundaiSantaFe11,Hyundai Santa Fe 2019,1
+03audiA6-21,BMW X5 2019,0
+25toyotaAvalon16,Mercedes-Benz A-Class 2019,0
+11hondaInsight18,Audi A6 2019,0
+06bmwX5-39,Mercedes-Benz A-Class 2019,0
+28volkswagenJetta17,Volkswagen Arteon 2019,0
+12hondaPassport15,Volvo V60 2019,0
+19nissanAltima15,Nissan Altima 2019,1
+18mercedesBenzG8,Mercedes-Benz G-Class 2019,1
+20nissanLeafPlus13,Ford Fusion Hybrid Titanium 2019,0
+08chevySilverado12,Lexus ES 2019,0
+20nissanLeafPlus19,Nissan Leaf Plus 2019,1
+18mercedesBenzG34,Mercedes-Benz G-Class 2019,1
+20nissanLeafPlus29,Nissan Leaf Plus 2019,1
+15lexusES33,Nissan Leaf Plus 2019,0
+26toyotaRAV4-13,Toyota RAV4 2019,1
+14hyundaiVeloster7,Nissan Altima 2019,0
+08chevySilverado16,Toyota RAV4 2019,0
+06bmwX5-20,BMW X5 2019,1
+19nissanAltima30,Nissan Altima 2019,1
+30volvoV60-23,Volvo V60 2019,1
+22porscheCayenne10,Porsche Cayenne 2019,1
+19nissanAltima3,Nissan Altima 2019,1
+23subaruAscent33,Lexus ES 2019,0
+16lexusUX37,BMW X4 2019,0
+14hyundaiVeloster22,Mercedes-Benz A-Class 2019,0
+12hondaPassport24,Subaru Ascent 2019,0
+19nissanAltima1,BMW X5 2019,0
+28volkswagenJetta31,Audi A8 2019,0
+23subaruAscent37,Subaru Ascent 2019,1
+24subaruForester12,Subaru Forester 2019,1
+22porscheCayenne12,Porsche Cayenne 2019,1
+17mercedesBenzA18,Mercedes-Benz A-Class 2019,1
+17mercedesBenzA17,Mercedes-Benz A-Class 2019,1
+01acuraNSX15,Mercedes-Benz G-Class 2019,0
+21porsche911Speedster38,Porsche 911 Speedster 2019,1
+07chevyBlazer21,Volvo V60 2019,0
+02acuraRDX11,Porsche Cayenne 2019,0
+13hyundaiSantaFe39,Ford Fusion Hybrid Titanium 2019,0
+30volvoV60-7,Volvo S60 2019,0
+03audiA6-26,Mercedes-Benz A-Class 2019,0
+08chevySilverado35,Chevrolet Silverado 2019,1
+27volkswagenArteon24,Audi A6 2019,0
+05bmwX4-13,Mercedes-Benz G-Class 2019,0
+12hondaPassport43,Ford Taurus 2019,0
+14hyundaiVeloster31,Mercedes-Benz A-Class 2019,0
+28volkswagenJetta1,Volvo V60 2019,0
+05bmwX4-38,BMW X5 2019,0
+19nissanAltima25,Nissan Altima 2019,1
+25toyotaAvalon31,Lexus UX 2019,0
+20nissanLeafPlus14,Mercedes-Benz A-Class 2019,0
+22porscheCayenne18,Porsche Cayenne 2019,1
+25toyotaAvalon9,Lexus ES 2019,0
+28volkswagenJetta5,Mercedes-Benz A-Class 2019,0
+30volvoV60-11,Volvo V60 2019,1
+10fordTaurus22,Ford Taurus 2019,1
+03audiA6-35,Audi A6 2019,1
+26toyotaRAV4-33,Toyota RAV4 2019,1
+26toyotaRAV4-21,Toyota RAV4 2019,1
+30volvoV60-26,Volvo S60 2019,0
+12hondaPassport33,Subaru Ascent 2019,0
+27volkswagenArteon21,Volkswagen Arteon 2019,1
+06bmwX5-31,BMW X5 2019,1
+22porscheCayenne24,Audi A6 2019,0
+12hondaPassport22,Subaru Ascent 2019,0
+09fordFusionHybridTitanium23,Ford Fusion Hybrid Titanium 2019,1
+01acuraNSX14,Chevrolet Blazer 2019,0
+26toyotaRAV4-14,Toyota RAV4 2019,1
+11hondaInsight21,Mercedes-Benz A-Class 2019,0
+28volkswagenJetta9,Ford Fusion Hybrid Titanium 2019,0
+27volkswagenArteon20,Nissan Altima 2019,0
+24subaruForester31,Subaru Forester 2019,1
+03audiA6-10,Lexus ES 2019,0
+07chevyBlazer3,Hyundai Santa Fe 2019,0
+07chevyBlazer32,Hyundai Santa Fe 2019,0
+02acuraRDX28,Volvo V60 2019,0
+20nissanLeafPlus18,Nissan Leaf Plus 2019,1
