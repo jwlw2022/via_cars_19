@@ -27,6 +27,7 @@ import sys
 import six.moves.urllib as urllib
 import tarfile
 import zipfile
+import matplotlib.pyplot as plt
 import subprocess
 
 from io import StringIO
@@ -40,7 +41,7 @@ from object_detection.utils import ops as utils_ops
 from object_detection.utils import visualization_utils as vis_util
 
 flags = tf.app.flags
-flags.DEFINE_string('model','frozen_inf_graph.pb','Frozen graph file')
+flags.DEFINE_string('model','output/frozen_inference_graph.pb','Frozen graph file')
 flags.DEFINE_string('labels','2019_cars_label_map.pbtxt','pbtxt labels file')
 #flags.DEFINE_string('image','','Image to run prediction on')
 FLAGS = flags.FLAGS
@@ -111,6 +112,9 @@ def main(_):
   answers = []
   guesses = []
 
+  IMAGE_SIZE = (12, 8)
+
+
   for i in TEST_IM_PATHS:
     #answers.append(i)
     #print(i)
@@ -149,13 +153,29 @@ def main(_):
     guesses.append(guess)
     print(i)
     answers.append(i)
+
+    bbox_list = []
+    for item in output_dict['detection_boxes'][0]:
+      bbox_list.append(item)
+    bbox_list[0] = int(round(bbox_list[0]*image.size[0]))
+    bbox_list[1] = int(round(bbox_list[1]*image.size[1]))
+    bbox_list[2] = int(round(bbox_list[2]*image.size[0]))
+    bbox_list[3] = int(round(bbox_list[3]*image.size[1]))
+    #f = open('test_ssd_resnet50_2.csv',"a")
+    #results_writer.write(str(i))
+    #results_writer.write(",")
+    #for j in bbox_list:
+    #  results_writer.write(str(i))
+    #  results_writer.write(",")
+    #results_writer.write('\n')
+    #results_writer.close()
     
-    with open('test_faster_rcnn_resnet101_all.csv', mode='a') as results:
+    with open('test_ssd_resnet50_2.csv', mode='a') as results:
       results_writer = csv.writer(results, delimiter=',', quoting=csv.QUOTE_MINIMAL)
       if i[14:16] == class_pred: 
-        results_writer.writerow([i[14:-4], guess, 1, confidence])
+        results_writer.writerow([i[14:-4], guess, 1, confidence, bbox_list[0], bbox_list[1], bbox_list[2], bbox_list[3]])
       else:
-        results_writer.writerow([i[14:-4], guess, 0, confidence])
+        results_writer.writerow([i[14:-4], guess, 0, confidence, bbox_list[0], bbox_list[1], bbox_list[2], bbox_list[3]])
 
     #with open('test_model4.csv', 'rb') as f:
     #    data = list(csv.reader(f))
@@ -164,21 +184,25 @@ def main(_):
     #writer.writerow([i, guess])
 
   # Visualization of the results of a detection.
-  '''
-  vis_util.visualize_boxes_and_labels_on_image_array(
-      image_np,
-      output_dict['detection_boxes'],
-      output_dict['detection_classes'],
-      output_dict['detection_scores'],
-      category_index,
-      instance_masks=output_dict.get('detection_masks'),
-      use_normalized_coordinates=True,
-      line_thickness=8)
+  
+    vis_util.visualize_boxes_and_labels_on_image_array(
+        image_np,
+        output_dict['detection_boxes'],
+        output_dict['detection_classes'],
+        output_dict['detection_scores'],
+        category_index,
+        instance_masks=output_dict.get('detection_masks'),
+        use_normalized_coordinates=True,
+        line_thickness=8)
 
-  myim = Image.fromarray(image_np)
-  myim_basename = os.path.basename(FLAGS.image)
-  myim.save(os.path.join('results6/', myim_basename)) 
-  '''
+    plt.figure(figsize=IMAGE_SIZE)
+    plt.imshow(image_np)
+    fig_path = i.replace("test/", "test_results/")
+    plt.savefig(fig_path)
+  
+
+    
+
 if __name__ == '__main__':
   tf.app.run()
   #np.savetxt('test_model4.csv', (answers, guesses), delimiter=',')
