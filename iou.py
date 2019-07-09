@@ -2,9 +2,39 @@
 from collections import namedtuple
 import numpy as np
 import cv2
+import csv
+from io import StringIO
  
 # define the `Detection` object
 Detection = namedtuple("Detection", ["image_path", "gt", "pred"])
+
+pred = {}
+
+with open('test931.csv', newline='') as csvfile:
+    spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
+    for row in spamreader:
+        try:
+            pred['datasets/test/' + row[0] + '.jpg'] = [int(row[4]), int(row[5]), int(row[6]), int(row[7])]
+        except:
+            pass
+
+gt = {}
+
+with open('test_groundtruth.csv', newline='') as csv2:
+    reader = csv.reader(csv2, delimiter=',', quotechar='|')
+    for row in reader:
+        try:
+            gt[row[0]] = [int(row[1]), int(row[2]), int(row[3]), int(row[4])]
+        except:
+            pass
+
+tuples = []
+
+for p in pred.keys():
+    if p in gt.keys():
+        print(gt[p])
+        print(pred[p])
+        tuples.append(Detection(p, gt[p], pred[p]))        
 
 def bb_intersection_over_union(boxA, boxB):
     # determine the (x, y)-coordinates of the intersection rectangle
@@ -29,6 +59,7 @@ def bb_intersection_over_union(boxA, boxB):
     # return the intersection over union value
     return iou
 
+'''
 # define the list of example detections
 examples = [
 	Detection("image_0002.jpg", [39, 63, 203, 112], [54, 66, 198, 114]),
@@ -36,8 +67,8 @@ examples = [
 	Detection("image_0075.jpg", [31, 69, 201, 125], [18, 63, 235, 135]),
 	Detection("image_0090.jpg", [50, 72, 197, 121], [54, 72, 198, 120]),
 	Detection("image_0120.jpg", [35, 51, 196, 110], [36, 60, 180, 108])]
-
-for detection in examples:
+'''
+for detection in tuples:
     # load the image
     image = cv2.imread(detection.image_path)
  
@@ -53,9 +84,12 @@ for detection in examples:
     cv2.putText(image, "IoU: {:.4f}".format(iou), (10, 30),
     	cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 2)
     print("{}: {:.4f}".format(detection.image_path, iou))
- 
-    # show the output image
-    cv2.imshow("Image", image)
-    cv2.waitKey(0)
+    
+    with open('iou_list.csv', 'a') as f:
+        writer = csv.writer(f, delimiter=',', quotechar='|')
+        writer.writerow([detection.image_path, iou])
 
+    # show the output image
+    #cv2.imshow("Image", image)
+    #cv2.waitKey(0)
 
