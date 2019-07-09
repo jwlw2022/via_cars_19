@@ -5,6 +5,7 @@ import sys
 import tarfile
 import tensorflow as tf
 import zipfile
+import pandas as pd
 
 from distutils.version import StrictVersion
 from collections import defaultdict
@@ -27,7 +28,7 @@ from utils import label_map_util
 from utils import visualization_utils as vis_util
 
 # What model to download.
-MODEL_NAME = 'ssd_resnet50_v1_fpn_shared_box_predictor_640x640_coco14_sync_2018_07_03'
+MODEL_NAME = 'faster_rcnn_nas_coco_2018_01_28'
 MODEL_FILE = MODEL_NAME + '.tar.gz'
 DOWNLOAD_BASE = 'http://download.tensorflow.org/models/object_detection/'
 
@@ -74,11 +75,14 @@ def file_list(mypath):
 # image1.jpg
 # image2.jpg
 # If you want to test the code with your images, just add path to the images to the TEST_IMAGE_PATHS.
-PATH_TO_TEST_IMAGES_DIR = 'datasets/201' #REPLACE
+PATH_TO_TEST_IMAGES_DIR = 'datasets/225' #REPLACE
 files = file_list(PATH_TO_TEST_IMAGES_DIR)
-#TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}'.format(i)) for i in files ]
+TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}'.format(i)) for i in files ]
 #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}.jpg'.format(i)) for i in range(1, 83) ]
-TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}.jpg'.format(i)) for i in [77, 84, 87, 95, 97, 108, 110, 125, 133, 134, 141, 150, 158, 161, 169, 172, 173, 175, 180, 183, 187, 189, 205, 206, 222, 224, 227, 234, 235, 238, 241, 243, 247, 249, 253, 254, 264, 272] ] #REPLACE
+#TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}.jpg'.format(i)) for i in [77, 84, 87, 95, 97, 108, 110, 125, 133, 134, 141, 150, 158, 161, 169, 172, 173, 175, 180, 183, 187, 189, 205, 206, 222, 224, 227, 234, 235, 238, 241, 243, 247, 249, 253, 254, 264, 272] ] #REPLACE
+
+df = pd.read_csv('datasets/combined2_csv/225_combined2.csv')
+path = df['relative_im_path']
 
 # Size, in inches, of the output images.
 IMAGE_SIZE = (12, 8)
@@ -130,44 +134,49 @@ def run_inference_for_single_image(image, graph):
   return output_dict
 
 for image_path in TEST_IMAGE_PATHS:
-  print('working')
-  image = Image.open(image_path)
-  # the array based representation of the image will be used later in order to prepare the
-  # result image with boxes and labels on it.
-  image_np = load_image_into_numpy_array(image)
-  # Expand dimensions since the model expects images to have shape: [1, None, None, 3]
-  image_np_expanded = np.expand_dims(image_np, axis=0)
-  # Actual detection.
-  output_dict = run_inference_for_single_image(image_np_expanded, detection_graph)
-  #print(output_dict)
-  
-  # Visualization of the results of a detection.
-  #vis_util.visualize_boxes_and_labels_on_image_array(
-  #    image_np,
-  #    output_dict['detection_boxes'],
-  #    output_dict['detection_classes'],
-  #    output_dict['detection_scores'],
-  #    category_index,
-  #    instance_masks=output_dict.get('detection_masks'),
-  #    use_normalized_coordinates=True,
-  #    line_thickness=8)
-  #plt.figure(figsize=IMAGE_SIZE)
-  #plt.imshow(image_np)
-  #fig_path = image_path.replace("201/", "201_boxes/")
-  #plt.savefig(fig_path)
+  print(image_path)
+  if image_path in path.unique():
+    continue
+  else: 
+    image = Image.open(image_path)
+    # the array based representation of the image will be used later in order to prepare the
+    # result image with boxes and labels on it.
+    image_np = load_image_into_numpy_array(image)
+    # Expand dimensions since the model expects images to have shape: [1, None, None, 3]
+    image_np_expanded = np.expand_dims(image_np, axis=0)
+    # Actual detection.
+    output_dict = run_inference_for_single_image(image_np_expanded, detection_graph)
+    #print(output_dict)
+    
+    # Visualization of the results of a detection.
+    #vis_util.visualize_boxes_and_labels_on_image_array(
+    #    image_np,
+    #    output_dict['detection_boxes'],
+    #    output_dict['detection_classes'],
+    #    output_dict['detection_scores'],
+    #    category_index,
+    #    instance_masks=output_dict.get('detection_masks'),
+    #    use_normalized_coordinates=True,
+    #    line_thickness=8)
+    #plt.figure(figsize=IMAGE_SIZE)
+    #plt.imshow(image_np)
+    #fig_path = image_path.replace("201/", "201_boxes/")
+    #plt.savefig(fig_path)
 
-  xml_name = image_path.replace('.jpg', '.csv')
-  xml_name = xml_name.replace("201/", "201_csv2/")
-  bbox_list = []
-  for item in output_dict['detection_boxes'][0]:
-    bbox_list.append(item)
-  bbox_list[0] = int(round(bbox_list[0]*image.size[0]))
-  bbox_list[1] = int(round(bbox_list[1]*image.size[1]))
-  bbox_list[2] = int(round(bbox_list[2]*image.size[0]))
-  bbox_list[3] = int(round(bbox_list[3]*image.size[1]))
-  f = open(xml_name,"w+")
-  f.write(str(image_path))
-  f.write(",5,")
-  for i in bbox_list:
-    f.write(str(i))
-    f.write(",")
+    #xml_name = image_path.replace('.jpg', '.csv')
+    #xml_name = xml_name.replace("201/", "201_csv2/")
+    bbox_list = []
+    for item in output_dict['detection_boxes'][0]:
+      bbox_list.append(item)
+    bbox_list[0] = int(round(bbox_list[0]*image.size[0]))
+    bbox_list[1] = int(round(bbox_list[1]*image.size[1]))
+    bbox_list[2] = int(round(bbox_list[2]*image.size[0]))
+    bbox_list[3] = int(round(bbox_list[3]*image.size[1]))
+    f = open("datasets/combined2_csv/225_combined2.csv","a")
+    f.write(str(image_path))
+    f.write(",29,")
+    for i in bbox_list:
+      f.write(str(i))
+      f.write(",")
+    f.write("\n")
+    f.close()
