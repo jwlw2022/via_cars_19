@@ -81,5 +81,17 @@ Git:
 https://sethrobertson.github.io/GitFixUm/fixup.html#discard_all_unpushed
 https://git-lfs.github.com/
 
+Convert SVG to JPG:
+https://www.online-convert.com/result/83c5580f-a3aa-4205-8c14-3c62632ea8e4
+
+Saving testing results to csv:
+https://github.com/shreyas0906/Detecting-Volleyball-in-images/blob/master/test_model.py
+
+mAP:
+https://medium.com/@jonathan_hui/map-mean-average-precision-for-object-detection-45c121a31173
+
+
+
+
 
 
