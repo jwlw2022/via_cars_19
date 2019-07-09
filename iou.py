@@ -10,7 +10,7 @@ Detection = namedtuple("Detection", ["image_path", "gt", "pred"])
 
 pred = {}
 
-with open('test931.csv', newline='') as csvfile:
+with open('ssd_resnet50_2_results/test_ssd_resnet50_2.csv', newline='') as csvfile:
     spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
     for row in spamreader:
         try:
@@ -85,7 +85,7 @@ for detection in tuples:
     	cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 2)
     print("{}: {:.4f}".format(detection.image_path, iou))
     
-    with open('iou_list.csv', 'a') as f:
+    with open('ssd_resnet50_iou_list.csv', 'a') as f:
         writer = csv.writer(f, delimiter=',', quotechar='|')
         writer.writerow([detection.image_path, iou])
 
