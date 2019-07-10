@@ -35,10 +35,10 @@ DOWNLOAD_BASE = 'http://download.tensorflow.org/models/object_detection/'
 PATH_TO_FROZEN_GRAPH = MODEL_NAME + '/frozen_inference_graph.pb'
 
 # List of the strings that is used to add correct label for each box.
-PATH_TO_LABELS = '2019_cars_label_map.pbtxt' #REPLACE
+PATH_TO_LABELS = 'all_226_cars_label_map.pbtxt' #REPLACE
 
-opener = urllib.request.URLopener()
-opener.retrieve(DOWNLOAD_BASE + MODEL_FILE, MODEL_FILE)
+#opener = urllib.request.URLopener()
+#opener.retrieve(DOWNLOAD_BASE + MODEL_FILE, MODEL_FILE)
 tar_file = tarfile.open(MODEL_FILE)
 for file in tar_file.getmembers():
   file_name = os.path.basename(file.name)
@@ -75,7 +75,7 @@ def file_list(mypath):
 # image2.jpg
 # If you want to test the code with your images, just add path to the images to the TEST_IMAGE_PATHS.
 
-for curr_dir in range(215, 216):
+for curr_dir in [201, 225]:
   PATH_TO_TEST_IMAGES_DIR = 'datasets/{}'.format(curr_dir) #REPLACE
   files = file_list(PATH_TO_TEST_IMAGES_DIR)
   TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}'.format(i)) for i in files ]   
@@ -158,8 +158,8 @@ for curr_dir in range(215, 216):
     #fig_path = image_path.replace("{}/".format(curr_dir), "{}_boxes/".format(curr_dir))
     #plt.savefig(fig_path)
 
-    xml_name = image_path.replace('.jpg', '.csv')
-    xml_name = xml_name.replace("{}/".format(curr_dir), "{}_csv2/".format(curr_dir))
+    #xml_name = image_path.replace('.jpg', '.csv')
+    #xml_name = xml_name.replace("{}/".format(curr_dir), "{}_csv2/".format(curr_dir))
     bbox_list = []
     for item in output_dict['detection_boxes'][0]:
       bbox_list.append(item)
@@ -167,9 +167,11 @@ for curr_dir in range(215, 216):
     bbox_list[1] = int(round(bbox_list[1]*image.size[1]))
     bbox_list[2] = int(round(bbox_list[2]*image.size[0]))
     bbox_list[3] = int(round(bbox_list[3]*image.size[1]))
-    f= open(xml_name,"w+")
+    f= open('{}_combined2.csv'.format(curr_dir),"a")
     f.write(str(image_path))
-    f.write(",{},".format(curr_dir - 196))
+    f.write(",{},".format(curr_dir))
     for i in bbox_list:
       f.write(str(i))
       f.write(",")
+    f.write('\n')
+    f.close()
