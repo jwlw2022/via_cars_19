@@ -51,7 +51,7 @@ flags = tf.app.flags
 
 flags.DEFINE_string('data_dir','','Root directory to Stanford Cars dataset. (car_ims is a subfolder)')
 flags.DEFINE_string('output_path','new_stanford_cars.tfrecord','Path to output TFRecord.')
-flags.DEFINE_string('label_map_path','2019_cars_label_map.pbtxt','Path to label map proto.')
+flags.DEFINE_string('label_map_path','all_226_cars_label_map.pbtxt','Path to label map proto.')
 flags.DEFINE_string('set','merged','Convert training set, test set, or merged set.')
 flags.DEFINE_string('csv','','Converted CSV labels file')
 
