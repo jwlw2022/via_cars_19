@@ -4,7 +4,7 @@ import os
 import numpy as np
  
 FOLDER = './'
-CSV_FILE = 'datasets/combined_csv/BIG2.csv'
+CSV_FILE = 'datasets/combined2_csv/all_combined.csv'
  
 with open(CSV_FILE, 'r') as fid:
    
