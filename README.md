@@ -89,6 +89,11 @@ https://github.com/shreyas0906/Detecting-Volleyball-in-images/blob/master/test_m
 
 mAP:
 https://medium.com/@jonathan_hui/map-mean-average-precision-for-object-detection-45c121a31173
+https://medium.com/@timothycarlen/understanding-the-map-evaluation-metric-for-object-detection-a07fe6962cf3
+
+
+
+
 
 
 
