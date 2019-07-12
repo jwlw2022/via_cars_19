@@ -6,21 +6,23 @@ csv_path = "test_groundtruth.csv"
 df = pd.read_csv(csv_path)
 
 # change according to number of rows in csv 
-df = pd.DataFrame(df, index=[x for x in range(1142)])
+df = pd.DataFrame(df, index=[x for x in range(1141)])
 
 gt_dict = {}
 
 for image in df['image_path']:
     image = image.replace('datasets/test/', '')
     image = image.replace('.jpg', '')
+    image = image.replace('.jpeg', '')
     gt_dict.update({image: []})
 
 counter = 0
 for key in gt_dict:
-    gt_dict[key].append(int(df.loc[ counter , : ]['xmin']))
-    gt_dict[key].append(int(df.loc[ counter , : ]['ymin']))
-    gt_dict[key].append(int(df.loc[ counter , : ]['xmax']))
-    gt_dict[key].append(int(df.loc[ counter , : ]['ymax']))
+    gt_dict[key].append([])
+    gt_dict[key][0].append(int(df.loc[ counter , : ]['xmin']))
+    gt_dict[key][0].append(int(df.loc[ counter , : ]['ymin']))
+    gt_dict[key][0].append(int(df.loc[ counter , : ]['xmax']))
+    gt_dict[key][0].append(int(df.loc[ counter , : ]['ymax']))
     counter += 1
 
 print(gt_dict)
