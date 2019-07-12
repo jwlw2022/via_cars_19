@@ -10,6 +10,9 @@ NOTE: Requires the files `ground_truth_boxes.json` and `predicted_boxes.json` wh
 downloaded fromt this gist.
 """
 
+# Note: as of now this code only handles objects of the same class (i.e. Honda Passport, Volve S60, etc.). Needs to be modified to average over all 
+# classes. Right now, it averages over 10 IoU thresholds (from 0.5 to 0.95 with step size 5) for a single class). 
+
 from __future__ import absolute_import, division, print_function
 
 from copy import deepcopy
