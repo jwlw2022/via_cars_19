@@ -1,0 +1,2 @@
+cannot reshape array of size 98000 into shape (250,392,3)
+car_ims/001265.jpg

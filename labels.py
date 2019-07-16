@@ -132,66 +132,73 @@ def run_inference_for_single_image(image, graph):
 
 for image_path in TEST_IMAGE_PATHS:
   print(image_path)
-  if image_path in path.unique(): # if image has already been processed
-    continue
-  else: 
-    image = Image.open(image_path)
-    # the array based representation of the image will be used later in order to prepare the
-    # result image with boxes and labels on it.
-    image_np = load_image_into_numpy_array(image)
-    # Expand dimensions since the model expects images to have shape: [1, None, None, 3]
-    image_np_expanded = np.expand_dims(image_np, axis=0)
-    # Actual detection.
-    output_dict = run_inference_for_single_image(image_np_expanded, detection_graph)
-    #print(output_dict)
-    
-    # Visualization of the results of a detection.
-    #vis_util.visualize_boxes_and_labels_on_image_array(
-    #    image_np,
-    #    output_dict['detection_boxes'],
-    #    output_dict['detection_classes'],
-    #    output_dict['detection_scores'],
-    #    category_index,
-    #    instance_masks=output_dict.get('detection_masks'),
-    #    use_normalized_coordinates=True,
-    #    line_thickness=8)
-    #plt.figure(figsize=IMAGE_SIZE)
-    #plt.imshow(image_np)
-    #fig_path = image_path.replace("car_ims/", "car_ims_boxes2/")
-    #plt.savefig(fig_path)
+  try:
+    if image_path in path.unique(): # if image has already been processed
+      continue
+    else: 
+      image = Image.open(image_path)
+      # the array based representation of the image will be used later in order to prepare the
+      # result image with boxes and labels on it.
+      image_np = load_image_into_numpy_array(image)
+      # Expand dimensions since the model expects images to have shape: [1, None, None, 3]
+      image_np_expanded = np.expand_dims(image_np, axis=0)
+      # Actual detection.
+      output_dict = run_inference_for_single_image(image_np_expanded, detection_graph)
+      #print(output_dict)
+      
+      # Visualization of the results of a detection.
+      #vis_util.visualize_boxes_and_labels_on_image_array(
+      #    image_np,
+      #    output_dict['detection_boxes'],
+      #    output_dict['detection_classes'],
+      #    output_dict['detection_scores'],
+      #    category_index,
+      #    instance_masks=output_dict.get('detection_masks'),
+      #    use_normalized_coordinates=True,
+      #    line_thickness=8)
+      #plt.figure(figsize=IMAGE_SIZE)
+      #plt.imshow(image_np)
+      #fig_path = image_path.replace("car_ims/", "car_ims_boxes2/")
+      #plt.savefig(fig_path)
 
-    #xml_name = image_path.replace('.jpg', '.csv')
-    #xml_name = xml_name.replace("201/", "201_csv2/")
-    bbox_list = []
-    for item in output_dict['detection_boxes'][0]:
-      bbox_list.append(item)
-    bbox_list[0] = int(round(bbox_list[0]*image.size[1]))
-    bbox_list[1] = int(round(bbox_list[1]*image.size[0]))
-    bbox_list[2] = int(round(bbox_list[2]*image.size[1]))
-    bbox_list[3] = int(round(bbox_list[3]*image.size[0]))
-    
-    #bbox_list[0] = int(round(bbox_list[1]*image.size[0]))
-    #bbox_list[1] = int(round(bbox_list[0]*image.size[1]))
-    #bbox_list[2] = int(round(bbox_list[3]*image.size[0]))
-    #bbox_list[3] = int(round(bbox_list[2]*image.size[1]))
-    f = open("new_196_3.csv","a")
-    f.write(str(image_path))
-    csv = pd.read_csv("stanford_cars_labels.csv")
-    df2 = pd.DataFrame(csv, index=[x for x in range(16185)])
-    #print(df2)
-    im_path = image_path.replace('.jpg', '')
-    im_path = im_path.replace('car_ims/', '')
-    class_number = df2.loc[ int(im_path) - 1 , 'class']
-    #print(class_number)
-    f.write(",{},".format(class_number))
-    
-    f.write(str(bbox_list[1]))
-    f.write(",")
-    f.write(str(bbox_list[0]))
-    f.write(",")
-    f.write(str(bbox_list[3]))
-    f.write(",")
-    f.write(str(bbox_list[2]))
-    f.write(",")
-    f.write("\n")
-    f.close()
+      #xml_name = image_path.replace('.jpg', '.csv')
+      #xml_name = xml_name.replace("201/", "201_csv2/")
+      bbox_list = []
+      for item in output_dict['detection_boxes'][0]:
+        bbox_list.append(item)
+      bbox_list[0] = int(round(bbox_list[0]*image.size[1]))
+      bbox_list[1] = int(round(bbox_list[1]*image.size[0]))
+      bbox_list[2] = int(round(bbox_list[2]*image.size[1]))
+      bbox_list[3] = int(round(bbox_list[3]*image.size[0]))
+      
+      #bbox_list[0] = int(round(bbox_list[1]*image.size[0]))
+      #bbox_list[1] = int(round(bbox_list[0]*image.size[1]))
+      #bbox_list[2] = int(round(bbox_list[3]*image.size[0]))
+      #bbox_list[3] = int(round(bbox_list[2]*image.size[1]))
+      f = open("new_196_3.csv","a")
+      f.write(str(image_path))
+      csv = pd.read_csv("stanford_cars_labels.csv")
+      df2 = pd.DataFrame(csv, index=[x for x in range(16185)])
+      #print(df2)
+      im_path = image_path.replace('.jpg', '')
+      im_path = im_path.replace('car_ims/', '')
+      class_number = df2.loc[ int(im_path) - 1 , 'class']
+      #print(class_number)
+      f.write(",{},".format(class_number))
+      
+      f.write(str(bbox_list[1]))
+      f.write(",")
+      f.write(str(bbox_list[0]))
+      f.write(",")
+      f.write(str(bbox_list[3]))
+      f.write(",")
+      f.write(str(bbox_list[2]))
+      f.write(",")
+      f.write("\n")
+      f.close()
+  except Exception as e:
+    g = open("error.txt", "a")
+    g.write(str(e) + "\n")
+    g.write(image_path)
+    g.write("\n")
+    g.close()
