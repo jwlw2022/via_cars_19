@@ -5,13 +5,11 @@ Helpful links:
 
 Installation:
 
+https://www.tensorflow.org/install/gpu
+
 https://medium.com/better-programming/install-tensorflow-1-13-on-ubuntu-18-04-with-gpu-support-239b36d29070
 
 https://medium.com/@maniac.tw/ubuntu-18-04-%E5%AE%89%E8%A3%9D-nvidia-driver-418-cuda-10-tensorflow-1-13-a4f1c71dd8e5
-
-https://medium.com/@cjanze/how-to-install-tensorflow-with-gpu-support-on-ubuntu-18-04-lts-with-cuda-10-nvidia-gpu-312a693744b5
-
-https://blog.mahonex.com/index.php/2018/07/18/ubuntu-18-04-%E5%AE%89%E8%A3%85nvidia-%E6%98%BE%E5%8D%A1%E9%A9%B1%E5%8A%A8/
 
 Dataset:
 
@@ -82,7 +80,7 @@ https://sethrobertson.github.io/GitFixUm/fixup.html#discard_all_unpushed
 https://git-lfs.github.com/
 
 Convert SVG to JPG:
-https://www.online-convert.com/result/83c5580f-a3aa-4205-8c14-3c62632ea8e4
+https://image.online-convert.com/convert-to-jpg
 
 Saving testing results to csv:
 https://github.com/shreyas0906/Detecting-Volleyball-in-images/blob/master/test_model.py
@@ -90,6 +88,11 @@ https://github.com/shreyas0906/Detecting-Volleyball-in-images/blob/master/test_m
 mAP:
 https://medium.com/@jonathan_hui/map-mean-average-precision-for-object-detection-45c121a31173
 https://medium.com/@timothycarlen/understanding-the-map-evaluation-metric-for-object-detection-a07fe6962cf3
+
+
+
+
+
 
 
 
