@@ -42,11 +42,11 @@ from object_detection.utils import visualization_utils as vis_util
 
 flags = tf.app.flags
 flags.DEFINE_string('model','output/frozen_inference_graph.pb','Frozen graph file')
-flags.DEFINE_string('labels','2019_cars_label_map.pbtxt','pbtxt labels file')
+flags.DEFINE_string('labels','all_226_cars_label_map.pbtxt','pbtxt labels file')
 #flags.DEFINE_string('image','','Image to run prediction on')
 FLAGS = flags.FLAGS
 
-NUM_CLASSES = 30
+NUM_CLASSES = 226
 
 def load_image_into_numpy_array(image):
   (im_width, im_height) = image.size

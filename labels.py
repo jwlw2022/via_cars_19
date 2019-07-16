@@ -36,7 +36,7 @@ DOWNLOAD_BASE = 'http://download.tensorflow.org/models/object_detection/'
 PATH_TO_FROZEN_GRAPH = MODEL_NAME + '/frozen_inference_graph.pb'
 
 # List of the strings that is used to add correct label for each box.
-PATH_TO_LABELS = '2019_cars_label_map.pbtxt' #REPLACE
+PATH_TO_LABELS = 'all_226_cars_label_map.pbtxt' #REPLACE
 
 #opener = urllib.request.URLopener()
 #opener.retrieve(DOWNLOAD_BASE + MODEL_FILE, MODEL_FILE)
@@ -45,8 +45,6 @@ for file in tar_file.getmembers():
   file_name = os.path.basename(file.name)
   if 'frozen_inference_graph.pb' in file_name:
     tar_file.extract(file, os.getcwd())
-
-print('working')
 
 detection_graph = tf.Graph()
 with detection_graph.as_default():
@@ -75,18 +73,17 @@ def file_list(mypath):
 # image1.jpg
 # image2.jpg
 # If you want to test the code with your images, just add path to the images to the TEST_IMAGE_PATHS.
-PATH_TO_TEST_IMAGES_DIR = 'datasets/225' #REPLACE
+PATH_TO_TEST_IMAGES_DIR = 'car_ims' #REPLACE
 files = file_list(PATH_TO_TEST_IMAGES_DIR)
 TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}'.format(i)) for i in files ]
 #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}.jpg'.format(i)) for i in range(1, 83) ]
 #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}.jpg'.format(i)) for i in [77, 84, 87, 95, 97, 108, 110, 125, 133, 134, 141, 150, 158, 161, 169, 172, 173, 175, 180, 183, 187, 189, 205, 206, 222, 224, 227, 234, 235, 238, 241, 243, 247, 249, 253, 254, 264, 272] ] #REPLACE
 
-df = pd.read_csv('datasets/combined2_csv/225_combined2.csv')
+df = pd.read_csv('new_196_3.csv')
 path = df['relative_im_path']
 
 # Size, in inches, of the output images.
 IMAGE_SIZE = (12, 8)
-
 def run_inference_for_single_image(image, graph):
   with graph.as_default():
     with tf.Session() as sess:
@@ -135,7 +132,7 @@ def run_inference_for_single_image(image, graph):
 
 for image_path in TEST_IMAGE_PATHS:
   print(image_path)
-  if image_path in path.unique():
+  if image_path in path.unique(): # if image has already been processed
     continue
   else: 
     image = Image.open(image_path)
@@ -149,34 +146,52 @@ for image_path in TEST_IMAGE_PATHS:
     #print(output_dict)
     
     # Visualization of the results of a detection.
-    #vis_util.visualize_boxes_and_labels_on_image_array(
-    #    image_np,
-    #    output_dict['detection_boxes'],
-    #    output_dict['detection_classes'],
-    #    output_dict['detection_scores'],
-    #    category_index,
-    #    instance_masks=output_dict.get('detection_masks'),
-    #    use_normalized_coordinates=True,
-    #    line_thickness=8)
-    #plt.figure(figsize=IMAGE_SIZE)
-    #plt.imshow(image_np)
-    #fig_path = image_path.replace("201/", "201_boxes/")
-    #plt.savefig(fig_path)
+    vis_util.visualize_boxes_and_labels_on_image_array(
+        image_np,
+        output_dict['detection_boxes'],
+        output_dict['detection_classes'],
+        output_dict['detection_scores'],
+        category_index,
+        instance_masks=output_dict.get('detection_masks'),
+        use_normalized_coordinates=True,
+        line_thickness=8)
+    plt.figure(figsize=IMAGE_SIZE)
+    plt.imshow(image_np)
+    fig_path = image_path.replace("car_ims/", "car_ims_boxes2/")
+    plt.savefig(fig_path)
 
     #xml_name = image_path.replace('.jpg', '.csv')
     #xml_name = xml_name.replace("201/", "201_csv2/")
     bbox_list = []
     for item in output_dict['detection_boxes'][0]:
       bbox_list.append(item)
-    bbox_list[0] = int(round(bbox_list[0]*image.size[0]))
-    bbox_list[1] = int(round(bbox_list[1]*image.size[1]))
-    bbox_list[2] = int(round(bbox_list[2]*image.size[0]))
-    bbox_list[3] = int(round(bbox_list[3]*image.size[1]))
-    f = open("datasets/combined2_csv/225_combined2.csv","a")
+    bbox_list[0] = int(round(bbox_list[0]*image.size[1]))
+    bbox_list[1] = int(round(bbox_list[1]*image.size[0]))
+    bbox_list[2] = int(round(bbox_list[2]*image.size[1]))
+    bbox_list[3] = int(round(bbox_list[3]*image.size[0]))
+    
+    #bbox_list[0] = int(round(bbox_list[1]*image.size[0]))
+    #bbox_list[1] = int(round(bbox_list[0]*image.size[1]))
+    #bbox_list[2] = int(round(bbox_list[3]*image.size[0]))
+    #bbox_list[3] = int(round(bbox_list[2]*image.size[1]))
+    f = open("new_196_3.csv","a")
     f.write(str(image_path))
-    f.write(",29,")
-    for i in bbox_list:
-      f.write(str(i))
-      f.write(",")
+    csv = pd.read_csv("stanford_cars_labels.csv")
+    df2 = pd.DataFrame(csv, index=[x for x in range(16185)])
+    #print(df2)
+    im_path = image_path.replace('.jpg', '')
+    im_path = im_path.replace('car_ims/', '')
+    class_number = df2.loc[ int(im_path) - 1 , 'class']
+    #print(class_number)
+    f.write(",{},".format(class_number))
+    
+    f.write(str(bbox_list[1]))
+    f.write(",")
+    f.write(str(bbox_list[0]))
+    f.write(",")
+    f.write(str(bbox_list[3]))
+    f.write(",")
+    f.write(str(bbox_list[2]))
+    f.write(",")
     f.write("\n")
     f.close()

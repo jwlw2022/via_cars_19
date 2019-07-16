@@ -19,7 +19,7 @@ from object_detection.utils import ops as utils_ops
 if StrictVersion(tf.__version__) < StrictVersion('1.12.0'):
   raise ImportError('Please upgrade your TensorFlow installation to v1.12.*.')
 
-# This is needed to display the images.
+# This is needed to display the images (for jupyter notebook).
 #%matplotlib inline
 
 from utils import label_map_util
@@ -44,8 +44,6 @@ for file in tar_file.getmembers():
   file_name = os.path.basename(file.name)
   if 'frozen_inference_graph.pb' in file_name:
     tar_file.extract(file, os.getcwd())
-
-print('working')
 
 detection_graph = tf.Graph()
 with detection_graph.as_default():
