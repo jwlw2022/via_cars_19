@@ -8,26 +8,33 @@ df = pd.read_csv(csv_path)
 # change according to number of rows in csv 
 df = pd.DataFrame(df, index=[x for x in range(1141)])
 
-predicted_dict = {}
+for x in range(1, 31):
 
-for image in df['image_path']:
-    predicted_dict.update({image: {}})
+    predicted_dict = {}
 
-counter = 0
-for key in predicted_dict:
-    predicted_dict[key].update({"boxes": []})
-    predicted_dict[key].update({"scores": []})
-    predicted_dict[key]['boxes'].append([])
-    predicted_dict[key]['boxes'][0].append(int(df.loc[ counter , : ]['xmin']))
-    predicted_dict[key]['boxes'][0].append(int(df.loc[ counter , : ]['ymin']))
-    predicted_dict[key]['boxes'][0].append(int(df.loc[ counter , : ]['xmax']))
-    predicted_dict[key]['boxes'][0].append(int(df.loc[ counter , : ]['ymax']))
-    predicted_dict[key]['scores'].append(df.loc[ counter , : ]['Confidence'])
-    counter += 1
+    for image in df['image_path']:
+        if int(image[0:2]) == x:
+            predicted_dict.update({image: {}})
 
-print(predicted_dict)
+    counter = 0
+    for key in predicted_dict:
+        predicted_dict[key].update({"boxes": []})
+        predicted_dict[key].update({"scores": []})
+        predicted_dict[key]['boxes'].append([])
+        #predicted_dict[key]['boxes'][0].append(int(df.loc[ counter , : ]['xmin']))
+        #predicted_dict[key]['boxes'][0].append(int(df.loc[ counter , : ]['ymin']))
+        #predicted_dict[key]['boxes'][0].append(int(df.loc[ counter , : ]['xmax']))
+        #predicted_dict[key]['boxes'][0].append(int(df.loc[ counter , : ]['ymax']))
+        #predicted_dict[key]['scores'].append(df.loc[ counter , : ]['Confidence'])
+        predicted_dict[key]['boxes'][0].append(df.loc[df.loc[df['image_path']==key].index, :]['xmin'])
+        #predicted_dict[key]['boxes'][0].append(int(df.loc[ counter , : ]['ymin']))
+        #predicted_dict[key]['boxes'][0].append(int(df.loc[ counter , : ]['xmax']))
+        #predicted_dict[key]['boxes'][0].append(int(df.loc[ counter , : ]['ymax']))
+        counter += 1
 
-    
-# write to file - change path name
-with open('predicted.json', 'w') as json_file:
-    json.dump(predicted_dict, json_file)
+    print(predicted_dict)
+
+        
+    # write to file - change path name
+    with open('predicted{}.json'.format(x), 'w') as json_file:
+        json.dump(predicted_dict, json_file)
