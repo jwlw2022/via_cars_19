@@ -63,23 +63,22 @@ def load_image_into_numpy_array(image):
   return np.array(image.getdata()).reshape(
       (im_height, im_width, 3)).astype(np.uint8)
 
-#Obtain list of all files in image directory
+# Obtain list of all files in image directory
 from os import listdir
 from os.path import isfile, join
 def file_list(mypath):
   return [f for f in listdir(mypath) if isfile(join(mypath, f))]
-  
-# For the sake of simplicity we will use only 2 images:
-# image1.jpg
-# image2.jpg
+
 # If you want to test the code with your images, just add path to the images to the TEST_IMAGE_PATHS.
 PATH_TO_TEST_IMAGES_DIR = 'car_ims' #REPLACE
 files = file_list(PATH_TO_TEST_IMAGES_DIR)
 TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}'.format(i)) for i in files ]
+#TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{:0>6}.jpg'.format(i) for i in range(16185) ]
 #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}.jpg'.format(i)) for i in range(1, 83) ]
-#TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}.jpg'.format(i)) for i in [77, 84, 87, 95, 97, 108, 110, 125, 133, 134, 141, 150, 158, 161, 169, 172, 173, 175, 180, 183, 187, 189, 205, 206, 222, 224, 227, 234, 235, 238, 241, 243, 247, 249, 253, 254, 264, 272] ] #REPLACE
 
-df = pd.read_csv('new_196_3.csv')
+# to keep track of which images have already been labeled
+SAVE_CSV = 'new_196_3.csv'
+df = pd.read_csv(SAVE_CSV)
 path = df['relative_im_path']
 
 # Size, in inches, of the output images.
@@ -144,7 +143,6 @@ for image_path in TEST_IMAGE_PATHS:
       image_np_expanded = np.expand_dims(image_np, axis=0)
       # Actual detection.
       output_dict = run_inference_for_single_image(image_np_expanded, detection_graph)
-      #print(output_dict)
       
       # Visualization of the results of a detection.
       #vis_util.visualize_boxes_and_labels_on_image_array(
@@ -175,17 +173,16 @@ for image_path in TEST_IMAGE_PATHS:
       #bbox_list[1] = int(round(bbox_list[0]*image.size[1]))
       #bbox_list[2] = int(round(bbox_list[3]*image.size[0]))
       #bbox_list[3] = int(round(bbox_list[2]*image.size[1]))
-      f = open("new_196_3.csv","a")
-      f.write(str(image_path))
+      
       csv = pd.read_csv("stanford_cars_labels.csv")
       df2 = pd.DataFrame(csv, index=[x for x in range(16185)])
-      #print(df2)
       im_path = image_path.replace('.jpg', '')
       im_path = im_path.replace('car_ims/', '')
       class_number = df2.loc[ int(im_path) - 1 , 'class']
-      #print(class_number)
-      f.write(",{},".format(class_number))
       
+      f = open(SAVE_CSV,"a")
+      f.write(str(image_path))      
+      f.write(",{},".format(class_number))
       f.write(str(bbox_list[1]))
       f.write(",")
       f.write(str(bbox_list[0]))
@@ -197,6 +194,7 @@ for image_path in TEST_IMAGE_PATHS:
       f.write("\n")
       f.close()
   except Exception as e:
+    # log errors and problem image name
     g = open("error.txt", "a")
     g.write(str(e) + "\n")
     g.write(image_path)
