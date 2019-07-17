@@ -159,8 +159,6 @@ for image_path in TEST_IMAGE_PATHS:
       #fig_path = image_path.replace("car_ims/", "car_ims_boxes2/")
       #plt.savefig(fig_path)
 
-      #xml_name = image_path.replace('.jpg', '.csv')
-      #xml_name = xml_name.replace("201/", "201_csv2/")
       bbox_list = []
       for item in output_dict['detection_boxes'][0]:
         bbox_list.append(item)
@@ -168,11 +166,6 @@ for image_path in TEST_IMAGE_PATHS:
       bbox_list[1] = int(round(bbox_list[1]*image.size[0]))
       bbox_list[2] = int(round(bbox_list[2]*image.size[1]))
       bbox_list[3] = int(round(bbox_list[3]*image.size[0]))
-      
-      #bbox_list[0] = int(round(bbox_list[1]*image.size[0]))
-      #bbox_list[1] = int(round(bbox_list[0]*image.size[1]))
-      #bbox_list[2] = int(round(bbox_list[3]*image.size[0]))
-      #bbox_list[3] = int(round(bbox_list[2]*image.size[1]))
       
       csv = pd.read_csv("stanford_cars_labels.csv")
       df2 = pd.DataFrame(csv, index=[x for x in range(16185)])
