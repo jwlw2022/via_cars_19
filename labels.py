@@ -72,12 +72,12 @@ def file_list(mypath):
 # If you want to test the code with your images, just add path to the images to the TEST_IMAGE_PATHS.
 PATH_TO_TEST_IMAGES_DIR = 'car_ims' #REPLACE
 files = file_list(PATH_TO_TEST_IMAGES_DIR)
-TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}'.format(i)) for i in files ]
-#TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{:0>6}.jpg'.format(i) for i in range(16185) ]
+#TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}'.format(i)) for i in files ]
+TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{:0>6}.jpg'.format(i)) for i in range(7000, 12500) ]
 #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}.jpg'.format(i)) for i in range(1, 83) ]
 
 # to keep track of which images have already been labeled
-SAVE_CSV = 'new_196_3.csv'
+SAVE_CSV = 'new_196_amanda.csv'
 df = pd.read_csv(SAVE_CSV)
 path = df['relative_im_path']
 
@@ -195,7 +195,7 @@ for image_path in TEST_IMAGE_PATHS:
       f.close()
   except Exception as e:
     # log errors and problem image name
-    g = open("error.txt", "a")
+    g = open("error_amanda.txt", "a")
     g.write(str(e) + "\n")
     g.write(image_path)
     g.write("\n")

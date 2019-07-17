@@ -31,3 +31,11 @@ car_ims/001366.jpg
 cannot reshape array of size 240000 into shape (400,600,3)
 car_ims/003543.jpg
 cannot reshape array of size 98000 into shape (250,392,3)
+cannot reshape array of size 231441 into shape (321,721,3)
+car_ims/008015.jpg
+cannot reshape array of size 231441 into shape (321,721,3)
+car_ims/008015.jpg
+cannot reshape array of size 231441 into shape (321,721,3)
+car_ims/008015.jpg
+cannot reshape array of size 231441 into shape (321,721,3)
+car_ims/008015.jpg
