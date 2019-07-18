@@ -73,7 +73,7 @@ def file_list(mypath):
 PATH_TO_TEST_IMAGES_DIR = 'car_ims' #REPLACE
 files = file_list(PATH_TO_TEST_IMAGES_DIR)
 #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}'.format(i)) for i in files ]
-TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{:0>6}.jpg'.format(i)) for i in range(6000, 7000) ]
+TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{:0>6}.jpg'.format(i)) for i in range(12500, 16185) ]
 #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}.jpg'.format(i)) for i in range(1, 83) ]
 
 # to keep track of which images have already been labeled
