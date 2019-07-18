@@ -14,7 +14,7 @@ from matplotlib import pyplot as plt
 from PIL import Image
 
 # This is needed since the notebook is stored in the object_detection folder.
-sys.path.append("../models/research/object_detection") #REPLACE
+sys.path.append("object_detection") #REPLACE
 from object_detection.utils import ops as utils_ops
 
 if StrictVersion(tf.__version__) < StrictVersion('1.12.0'):
@@ -73,11 +73,11 @@ def file_list(mypath):
 PATH_TO_TEST_IMAGES_DIR = 'car_ims' #REPLACE
 files = file_list(PATH_TO_TEST_IMAGES_DIR)
 #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}'.format(i)) for i in files ]
-TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{:0>6}.jpg'.format(i)) for i in range(7000, 12500) ]
+TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{:0>6}.jpg'.format(i)) for i in range(4500, 7001) ]
 #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}.jpg'.format(i)) for i in range(1, 83) ]
 
 # to keep track of which images have already been labeled
-SAVE_CSV = 'new_196_amanda.csv'
+SAVE_CSV = 'new_196_4-7000.csv'
 df = pd.read_csv(SAVE_CSV)
 path = df['relative_im_path']
 
@@ -188,7 +188,7 @@ for image_path in TEST_IMAGE_PATHS:
       f.close()
   except Exception as e:
     # log errors and problem image name
-    g = open("error_amanda.txt", "a")
+    g = open("error_4-7000.txt", "a")
     g.write(str(e) + "\n")
     g.write(image_path)
     g.write("\n")
