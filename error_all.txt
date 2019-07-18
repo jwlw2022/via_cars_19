@@ -22,8 +22,12 @@ cannot reshape array of size 262400 into shape (410,640,3)
 car_ims/001412.jpg - replaced
 cannot reshape array of size 116750 into shape (250,467,3)
 car_ims/001458.jpg - replaced
+cannot reshape array of size 2304000 into shape (1200,1920,3)
+car_ims/003338.jpg
 cannot reshape array of size 240000 into shape (400,600,3)
 car_ims/003543.jpg - replaced
+cannot reshape array of size 141484 into shape (326,434,3)
+car_ims/003712.jpg
 cannot reshape array of size 42120000 into shape (5400,7800,3)
 car_ims/005031.jpg - replaced
 cannot reshape array of size 101250 into shape (225,450,3)
