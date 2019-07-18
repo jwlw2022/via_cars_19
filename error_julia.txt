@@ -1,0 +1,39 @@
+cannot reshape array of size 98000 into shape (250,392,3)
+car_ims/001265.jpg
+cannot reshape array of size 786432 into shape (768,1024,3)
+car_ims/001334.jpg
+cannot reshape array of size 42120000 into shape (5400,7800,3)
+car_ims/005031.jpg
+cannot reshape array of size 86750 into shape (250,347,3)
+car_ims/001257.jpg
+cannot reshape array of size 116750 into shape (250,467,3)
+car_ims/001458.jpg
+cannot reshape array of size 262400 into shape (410,640,3)
+car_ims/001412.jpg
+cannot reshape array of size 19040 into shape (119,160,3)
+car_ims/001269.jpg
+cannot reshape array of size 167000 into shape (334,500,3)
+car_ims/001053.jpg
+cannot reshape array of size 67600 into shape (260,260,3)
+car_ims/001390.jpg
+cannot reshape array of size 59400 into shape (198,300,3)
+car_ims/011672.jpg
+cannot reshape array of size 101250 into shape (225,450,3)
+car_ims/005537.jpg
+cannot reshape array of size 96500 into shape (250,386,3)
+car_ims/001270.jpg
+cannot reshape array of size 94250 into shape (250,377,3)
+car_ims/001225.jpg
+cannot reshape array of size 433656 into shape (456,951,3)
+car_ims/001311.jpg
+cannot reshape array of size 88250 into shape (250,353,3)
+car_ims/001366.jpg
+cannot reshape array of size 240000 into shape (400,600,3)
+car_ims/003543.jpg
+cannot reshape array of size 98000 into shape (250,392,3)
+cannot reshape array of size 32340 into shape (147,220,3)
+car_ims/013394.jpg
+cannot reshape array of size 307200 into shape (480,640,3)
+car_ims/014690.jpg
+cannot reshape array of size 286720 into shape (448,640,3)
+car_ims/014761.jpg
