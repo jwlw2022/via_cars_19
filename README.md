@@ -92,6 +92,13 @@ https://medium.com/@timothycarlen/understanding-the-map-evaluation-metric-for-ob
 OpenCV:
 https://www.pyimagesearch.com/2018/05/28/ubuntu-18-04-how-to-install-opencv/
 
+Deep learning with PyTorch (from Simon):
+https://mlelarge.github.io/dataflowr-web/cea_edf_inria.html
+
+
+
+
+
 
 
 
