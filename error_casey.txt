@@ -1,0 +1,20 @@
+cannot reshape array of size 4141 into shape (41,101,3)
+car_ims/000050.jpg
+cannot reshape array of size 90750 into shape (250,363,3)
+car_ims/001287.jpg
+cannot reshape array of size 98000 into shape (250,392,3)
+car_ims/001301.jpg
+cannot reshape array of size 178200 into shape (297,600,3)
+car_ims/001302.jpg
+cannot reshape array of size 184200 into shape (307,600,3)
+car_ims/001310.jpg
+cannot reshape array of size 67500 into shape (225,300,3)
+car_ims/001312.jpg
+cannot reshape array of size 603089 into shape (683,883,3)
+car_ims/001319.jpg
+cannot reshape array of size 480000 into shape (600,800,3)
+car_ims/001327.jpg
+cannot reshape array of size 13348 into shape (94,142,3)
+car_ims/001369.jpg
+cannot reshape array of size 96250 into shape (250,385,3)
+car_ims/001403.jpg

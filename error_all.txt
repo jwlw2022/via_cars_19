@@ -1,3 +1,5 @@
+cannot reshape array of size 4141 into shape (41,101,3)
+car_ims/000050.jpg - replaced
 cannot reshape array of size 167000 into shape (334,500,3)
 car_ims/001053.jpg - replaced
 cannot reshape array of size 94250 into shape (250,377,3)
@@ -10,14 +12,32 @@ cannot reshape array of size 19040 into shape (119,160,3)
 car_ims/001269.jpg - replaced
 cannot reshape array of size 96500 into shape (250,386,3)
 car_ims/001270.jpg - replaced
+cannot reshape array of size 90750 into shape (250,363,3)
+car_ims/001287.jpg - replaced
+cannot reshape array of size 98000 into shape (250,392,3)
+car_ims/001301.jpg - replaced
+cannot reshape array of size 178200 into shape (297,600,3)
+car_ims/001302.jpg - replaced
+cannot reshape array of size 184200 into shape (307,600,3)
+car_ims/001310.jpg - replaced
 cannot reshape array of size 433656 into shape (456,951,3)
 car_ims/001311.jpg - replaced
+cannot reshape array of size 67500 into shape (225,300,3)
+car_ims/001312.jpg - replaced
+cannot reshape array of size 603089 into shape (683,883,3)
+car_ims/001319.jpg - replaced
+cannot reshape array of size 480000 into shape (600,800,3)
+car_ims/001327.jpg - replaced
 cannot reshape array of size 786432 into shape (768,1024,3)
 car_ims/001334.jpg - replaced
 cannot reshape array of size 88250 into shape (250,353,3)
 car_ims/001366.jpg - replaced
+cannot reshape array of size 13348 into shape (94,142,3)
+car_ims/001369.jpg - replaced
 cannot reshape array of size 67600 into shape (260,260,3)
 car_ims/001390.jpg - replaced
+cannot reshape array of size 96250 into shape (250,385,3)
+car_ims/001403.jpg - replaced
 cannot reshape array of size 262400 into shape (410,640,3)
 car_ims/001412.jpg - replaced
 cannot reshape array of size 116750 into shape (250,467,3)
