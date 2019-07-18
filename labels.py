@@ -73,11 +73,11 @@ def file_list(mypath):
 PATH_TO_TEST_IMAGES_DIR = 'car_ims' #REPLACE
 files = file_list(PATH_TO_TEST_IMAGES_DIR)
 #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}'.format(i)) for i in files ]
-TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{:0>6}.jpg'.format(i)) for i in range(4500, 7001) ]
+TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{:0>6}.jpg'.format(i)) for i in range(6000, 7000) ]
 #TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, '{}.jpg'.format(i)) for i in range(1, 83) ]
 
 # to keep track of which images have already been labeled
-SAVE_CSV = 'new_196_4-7000.csv'
+SAVE_CSV = 'new_196_amanda.csv'
 df = pd.read_csv(SAVE_CSV)
 path = df['relative_im_path']
 
@@ -188,7 +188,7 @@ for image_path in TEST_IMAGE_PATHS:
       f.close()
   except Exception as e:
     # log errors and problem image name
-    g = open("error_4-7000.txt", "a")
+    g = open("error_amanda.txt", "a")
     g.write(str(e) + "\n")
     g.write(image_path)
     g.write("\n")
