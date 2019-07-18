@@ -1,4 +1,4 @@
-"relative_im_path","class","xmin","ymin","xmax","ymax","test"
+"relative_im_path","class","bbox_x1","bbox_y1","bbox_x2","bbox_y2","test"
 "car_ims/000001.jpg",1,119,15,873,715,0
 "car_ims/000002.jpg",1,42,26,438,199,0
 "car_ims/000003.jpg",1,17,12,270,178,0
