@@ -1,0 +1,15 @@
+Car Detection Demo
+
+Old:
+001AMGeneralHummerSUV2000-65.jpg
+003AcuraTLSedan2012-62.jpg
+007acuraZDXHatchback2012-62.jpg
+008ashtonMartinV8VantageConvertible2012-43.jpg
+102ferrariCaliConv1
+
+New:
+199audiA6-27.jpg
+207hondaInsight9.jpg
+210hyundaiVeloster40.jpg
+211lexusES23.jpg
+223volkswagenArteon3.jpg
